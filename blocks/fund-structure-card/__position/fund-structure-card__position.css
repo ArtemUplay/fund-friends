@@ -1,0 +1,21 @@
+.fund-structure-card__position {
+  color: #939393;
+  margin: 8px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 906px) {
+  .fund-structure-card__position {
+    font-size: 1.987vw;
+    line-height: 2.870vw;
+  }
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card__position {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
