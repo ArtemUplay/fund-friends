@@ -1,0 +1,11 @@
+.fund-structure-card__info {
+  max-width: 504px;
+  width: 100%;
+  margin: 0 23px 0 0;
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card__info {
+    margin: 0 0 23px;
+  }
+}
