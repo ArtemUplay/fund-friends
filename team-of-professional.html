@@ -10,7 +10,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <!-- <header class="header">
     <div class="header__burger-menue">
       <span class="header__burger-line"></span>
     </div>
@@ -45,7 +45,7 @@
 
     <!--                                        2 burger screen                        -->
 
-    <nav class="header__fund-about">
+  <!-- <nav class="header__fund-about">
       <button id="buttonAbout" class="header__button-arrow" type="button">
         <img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow">
       </button>
@@ -105,10 +105,10 @@
           <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
         </div>
       </article>
-    </nav>
+    </nav> -->
 
-    <!--                          3 burger screen                                         -->
-    <div class="programs header header_programs">
+  <!--                          3 burger screen                                         -->
+  <!-- <div class="programs header header_programs">
       <button id="buttonPrograms" class="header__button-arrow" type="button">
         <img class="header__arrow" src="./images/Arrow_left.svg" alt="arrow">
       </button>
@@ -205,22 +205,38 @@
         </div>
       </article>
     </nav>
-  </header>
-  <section class="subscribe" aria-label="subscription">
-    <div class="subscribe__wrapper">
-      <p class="subscribe__title">
-        Подпишитесь на&nbsp;новостную рассылку программы
-      </p>
-      <p class="subscribe__subtitle">
-        и получайте первыми наши новости и приглашения на семинары/вебинары
-      </p>
-    </div>
-    <label>
-      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
-        placeholder="Введите ваш e-mail">
-    </label>
-    <button type="submit" class="subscribe__btn">Подписаться</button>
-  </section>
+  </header>  -->
+  <main class="content">
+    <section class="join-us">
+      <div class="join-us__wrapper-info">
+        <h2 class="join-us__title">Хотите к нам присоединиться?</h2>
+        <p class="join-us__text">
+          Программа доступна только для выпускников лидерского курса Московской школы
+          профессиональной филантропии. Подать заявку и узнать подробнее о программе можно на сайте Школы или
+          подписавшись
+          на рассылку программы “Команда профессионалов”.
+        </p>
+        <button type="button" class="join-us__button">Узнать подробнее</button>
+      </div>
+      <div class="join-us__wrapper-image"><img src="images/listening-people.jpg" alt="Слушающие люди"
+          class="join-us__image"></div>
+    </section>
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail">
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section>
+  </main>
   <footer class="footer">
     <div class="footer__container">
       <img class="footer__logo" src="./images/footer_logo.svg" alt="logo">
