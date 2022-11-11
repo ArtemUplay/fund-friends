@@ -1,0 +1,6 @@
+.fund-structure-card__image-wrapper {
+  overflow: hidden;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 504px;
+}
