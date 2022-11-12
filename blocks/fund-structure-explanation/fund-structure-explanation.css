@@ -5,3 +5,10 @@
   margin: 0;
   padding: 48px 388px 74px 124px;
 }
+
+@media (max-width: 1080px) {
+  .fund-structure-explanation {
+    padding: 40px 24px 56px;
+  }
+}
+
