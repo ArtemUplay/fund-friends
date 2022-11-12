@@ -41,6 +41,7 @@
 
 @media screen and (max-width: 400px) {
   .subscribe__btn {
+    width: 375px;
     padding: 18px 163.5px;
   }
 }
