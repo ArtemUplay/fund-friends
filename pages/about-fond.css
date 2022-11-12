@@ -73,7 +73,7 @@
 @import url("../blocks/section-title/section-title.css");
 
 /* блок "Наши проекты" */
-@import url("../blocks/");
+@import url("../blocks/our-projects/our-projects.css");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");
