@@ -1,3 +1,15 @@
 .fund-founders {
   padding-bottom: 122px;
 }
+
+@media (max-width: 420px) {
+  .fund-founders .fund-structure-card:first-child {
+    padding: 45px 24px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .fund-founders {
+    padding-bottom: 56px;
+  }
+}
