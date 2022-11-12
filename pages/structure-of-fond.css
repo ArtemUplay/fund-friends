@@ -69,6 +69,11 @@
 @import url("../blocks/fund-structure-card/__info/fund-structure-card__info.css");
 @import url("../blocks/fund-structure-card/__name/fund-structure-card__name.css");
 @import url("../blocks/fund-structure-card/fund-structure-card.css");
+@import url("../blocks/board-of-trustees/board-of-trustees.css");
+@import url("../blocks/fund-structure-explanation/fund-structure-explanation.css");
+@import url("../blocks/fund-structure-explanation-wrapper/fund-structure-explanation-wrapper.css");
+@import url("../blocks/fund-structure-card/__definition/fund-structure-card__definition.css");
+@import url("../blocks/fund-structure-card/_padding-top/fund-structure-card_padding-top.css");
 
 
 @import url("../blocks/subscribe/subscribe.css");

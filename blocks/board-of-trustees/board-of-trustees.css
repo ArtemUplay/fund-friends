@@ -1,0 +1,9 @@
+  .board-of-trustees {
+    padding-bottom: 148px;
+  }
+  
+  @media (max-width: 420px) {
+    .board-of-trustees {
+      padding-bottom: 56px;
+    }
+  }
