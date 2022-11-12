@@ -8,6 +8,7 @@
 
 @media (max-width: 906px) {
   .fund-structure-card__description {
+    padding: 16px 0 0;
     font-size: 1.987vw;
     line-height: 2.870vw;
   }
