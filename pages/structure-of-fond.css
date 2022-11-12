@@ -60,6 +60,9 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+/*--------Подключение стилей для fund-structure-card, блок "Попечительский совет"--------------------------*/
+@import url("../blocks/content/content.css");
+@import url("../blocks/board-of-trustees/board-of-trustees.css");
 /*--------Подключение стилей для fund-structure-card--------------------------*/
 @import url("../blocks/content/content.css");
 @import url("../blocks/fund-founders/fund-founders.css");
@@ -69,7 +72,10 @@
 @import url("../blocks/fund-structure-card/__info/fund-structure-card__info.css");
 @import url("../blocks/fund-structure-card/__name/fund-structure-card__name.css");
 @import url("../blocks/fund-structure-card/fund-structure-card.css");
-
+@import url("../blocks/fund-structure-explanation/fund-structure-explanation.css");
+@import url("../blocks/fund-structure-explanation-wrapper/fund-structure-explanation-wrapper.css");
+@import url("../blocks/fund-structure-card/__definition/fund-structure-card__definition.css");
+@import url("../blocks/fund-structure-card/_padding-top/fund-structure-card_padding-top.css");
 
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");

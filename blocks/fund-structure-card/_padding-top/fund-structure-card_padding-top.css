@@ -1,0 +1,9 @@
+.fund-structure-card_padding-top {
+  padding-top: 64px;
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card_padding-top {
+    padding-top: 40px;
+  }
+}
