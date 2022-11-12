@@ -63,6 +63,9 @@
 /*--------Подключение стилей для fund-structure-card, блок "Попечительский совет"--------------------------*/
 @import url("../blocks/content/content.css");
 @import url("../blocks/board-of-trustees/board-of-trustees.css");
+/*--------Подключение стилей для fund-structure-card--------------------------*/
+@import url("../blocks/content/content.css");
+@import url("../blocks/fund-founders/fund-founders.css");
 @import url("../blocks/fund-structure-card/__description/fund-structure-card__description.css");
 @import url("../blocks/fund-structure-card/__image-wrapper/fund-structure-card__image-wrapper.css");
 @import url("../blocks/fund-structure-card/__image/fund-structure-card__image.css");
