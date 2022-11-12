@@ -62,7 +62,6 @@
 
 /*--------Подключение стилей для fund-structure-card--------------------------*/
 @import url("../blocks/content/content.css");
-@import url("../blocks/expert-council/expert-council.css");
 @import url("../blocks/fund-founders/fund-founders.css");
 @import url("../blocks/fund-structure-card/__position/fund-structure-card__position.css");
 @import url("../blocks/fund-structure-card/__description/fund-structure-card__description.css");
@@ -73,6 +72,7 @@
 @import url("../blocks/fund-structure-card/fund-structure-card.css");
 
 /*--------Подключение стилей для fund-structure-card--------------------------*/
+@import url("../blocks/expert-council/expert-council.css");
 @import url("../blocks/expert-council-description/expert-council-description.css");
 @import url("../blocks/expert-council-description/__text/expert-council-description__text.css");
 @import url("../blocks/expert-council-description/__wrapper/expert-council-description__wrapper.css");
