@@ -70,6 +70,10 @@
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
 @import url("../blocks/header/_programs-padding/header_programs-padding.css");
+@import url("../blocks/section-title/section-title.css");
+
+/* блок "Наши проекты" */
+@import url("../blocks/");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");
