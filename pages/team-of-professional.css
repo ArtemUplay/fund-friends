@@ -70,6 +70,16 @@
 @import url("../blocks/join-us/__wrapper-image/join-us__wrapper-image.css");
 @import url("../blocks/join-us/__image/join-us__image.css");
 
+@import url("../blocks/useful-programm/useful-programm.css");
+@import url("../blocks/useful-programm/__title/useful-programm__title.css");
+@import url("../blocks/accordeon/accordeon.css");
+@import url("../blocks/accordeon/__item/accordeon__item.css");
+@import url("../blocks/accordeon/__title-info/accordeon__title-info.css");
+@import url("../blocks/accordeon/__button/accordeon__button.css");
+@import url("../blocks/accordeon/__button/_open/accordeon__button_open.css");
+@import url("../blocks/accordeon/__button/_close/accordeon__button_close.css");
+@import url("../blocks/accordeon/__content/accordeon__content.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
