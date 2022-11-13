@@ -1,0 +1,12 @@
+.other-programms__head {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin: 0px 0px 16px 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .other-programms__head {
+    margin: 0px 0px 10px 0px;
+  }
+}
