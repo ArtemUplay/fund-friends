@@ -17,3 +17,9 @@
     padding: 40px 24px 0;
   }
 }
+
+@media (max-width: 420px) {
+  .team .fund-structure-card {
+    padding: 40px 24px 0;
+  }
+}

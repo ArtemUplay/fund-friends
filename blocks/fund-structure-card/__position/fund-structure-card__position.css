@@ -17,5 +17,6 @@
   .fund-structure-card__position {
     font-size: 18px;
     line-height: 26px;
+    margin: 0;
   }
 }
