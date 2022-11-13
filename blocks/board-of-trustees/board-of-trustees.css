@@ -2,6 +2,12 @@
   padding-bottom: 148px;
 }
 
+@media (max-width: 420px) {
+  .board-of-trustees {
+    padding-bottom: 56px;
+  }
+}
+
 .board-of-trustees .fund-structure-card:first-child {
   padding: 64px 24px 0;
 }

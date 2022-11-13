@@ -83,6 +83,12 @@
 @import url("../blocks/board-of-trustees-description/__text/board-of-trustees-description__text.css");
 @import url("../blocks/board-of-trustees-description/__wrapper/board-of-trustees-description__wrapper.css");
 
+/*--------Подключение стилей для блока "Команда"--------------------------*/
+@import url("../blocks/team/team.css");
+@import url("../blocks/team-description/team-description.css");
+@import url("../blocks/team-description/__text/team-description__text.css");
+@import url("../blocks/team-description/__wrapper/team-description__wrapper.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
