@@ -77,6 +77,12 @@
 @import url("../blocks/expert-council-description/__text/expert-council-description__text.css");
 @import url("../blocks/expert-council-description/__wrapper/expert-council-description__wrapper.css");
 
+/*--------Подключение стилей для блока "Попечительский совет"--------------------------*/
+@import url("../blocks/board-of-trustees/board-of-trustees.css");
+@import url("../blocks/board-of-trustees-description/board-of-trustees-description.css");
+@import url("../blocks/board-of-trustees-description/__text/board-of-trustees-description__text.css");
+@import url("../blocks/board-of-trustees-description/__wrapper/board-of-trustees-description__wrapper.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");

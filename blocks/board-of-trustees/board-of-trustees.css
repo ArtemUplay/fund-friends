@@ -1,0 +1,13 @@
+.board-of-trustees {
+  padding-bottom: 148px;
+}
+
+.board-of-trustees .fund-structure-card:first-child {
+  padding: 64px 24px 0;
+}
+
+@media (max-width: 420px) {
+  .board-of-trustees .fund-structure-card:first-child {
+    padding: 40px 24px 0;
+  }
+}
