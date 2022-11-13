@@ -1,0 +1,16 @@
+.other-programms__item_laptop-urgant {
+  padding: 72px 0px 96px 52px;
+  background-color: #77C5D5;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms__item_laptop-urgant {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .other-programms__item_laptop-urgant {
+    padding: 32px 0px 40px 24px;
+  }
+}

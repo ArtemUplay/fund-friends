@@ -1,0 +1,17 @@
+.other-programms__item_moscow-school {
+  padding: 60px 0px 47px 68px;
+  background-color: #528CBE;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms__item_moscow-school {
+    order: 2;
+    padding: 72px 0px 96px 52px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .other-programms__item_moscow-school {
+    padding: 32px 0px 40px 24px;
+  }
+}

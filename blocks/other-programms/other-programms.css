@@ -1,0 +1,11 @@
+.other-programms {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms {
+    flex-wrap: wrap;
+  }
+}

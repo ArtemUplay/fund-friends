@@ -1,0 +1,16 @@
+.other-programms__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  width: 100%;
+  max-width: 394px;
+  margin: 0px 0px 16px 0px;
+}
+
+
+@media screen and (max-width:650px) {
+  .other-programms__title {
+    max-width: 100%;
+  }
+}
