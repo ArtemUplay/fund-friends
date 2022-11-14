@@ -1,0 +1,14 @@
+.fund-structure-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1080px;
+  padding: 72px 24px 0;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card {
+    display: block;
+    padding: 56px 24px 0;
+  }
+}

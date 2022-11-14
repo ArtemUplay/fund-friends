@@ -1,0 +1,13 @@
+.expert-council {
+  padding: 0 0 57px;
+}
+
+.expert-council .fund-structure-card:first-child {
+  padding: 64px 24px 0;
+}
+
+@media (max-width: 420px) {
+  .expert-council .fund-structure-card:first-child {
+    padding: 40px 24px 0;
+  }
+}
