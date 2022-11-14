@@ -66,7 +66,7 @@
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
 @import url("../blocks/subscribe/__email/subscribe__email.css");
 @import url("../blocks/subscribe/__btn/subscribe__btn.css");
-@import url(../blocks/alumni-stories/alumni-stories.css);
+/* @import url(../blocks/alumni-stories/alumni-stories.css);
 @import url(../blocks/alumni-stories/__title/alumni-stories__title.css);
 @import url(../blocks/alumni-stories/__wrapper/alumni-stories__wrapper.css);
 @import url(../blocks/alumni-stories/__group/alumni-stories__group.css);
@@ -79,7 +79,7 @@
 @import url(../blocks/alumni-stories/__textBox-link/alumni-stories__textBox-link.css);
 @import url(../blocks/alumni-stories/__button-arrow/alumni-stories__button-arrow.css);
 @import url(../blocks/alumni-stories/__button-slider/alumni-stories__button-slider.css);
-@import url(../blocks/alumni-stories/__button-slider/_right/alumni-stories__button-slider_right.css);
+@import url(../blocks/alumni-stories/__button-slider/_right/alumni-stories__button-slider_right.css); */
 @import url(../blocks/other-programms/other-programms.css);
 @import url(../blocks/other-programms/__item/other-programms__item.css);
 @import url(../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css);
@@ -117,7 +117,7 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__otherrights/footer__otherrights.css");
 @import url("../blocks/footer/__registered/footer__registered.css");
-.sr-only {
+/* .sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -141,4 +141,4 @@
   .slider__item_foundation {
     min-height: 486px;
   }
-} ;
+} ; */
