@@ -1,0 +1,12 @@
+.alumni-stories__textBox-link {
+  padding-left: 24px;
+  border: none;
+  background-color: #f8f8f8;
+  color: #424242;
+  cursor: pointer;
+  font-family: "inter", "serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
