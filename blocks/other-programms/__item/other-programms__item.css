@@ -1,5 +1,6 @@
 .other-programms__item {
-  flex-basis: 50%;
+  box-sizing: border-box;
+  width: 50%;
   position: relative;
   z-index: 1;
 }
