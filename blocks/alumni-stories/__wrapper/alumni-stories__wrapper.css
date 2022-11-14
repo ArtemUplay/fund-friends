@@ -1,0 +1,18 @@
+.alumni-stories__wrapper {
+  display: flex;
+  padding-bottom: 96px;
+  column-gap: 40px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+@media screen and (max-width: 375px) {
+  #viewport {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+  }
+}

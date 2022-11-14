@@ -1,0 +1,10 @@
+.alumni-stories__group {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.alumni-stories__group:first-of-type {
+  padding-left: 42px;
+}

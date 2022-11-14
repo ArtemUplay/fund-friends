@@ -66,6 +66,31 @@
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
 @import url("../blocks/subscribe/__email/subscribe__email.css");
 @import url("../blocks/subscribe/__btn/subscribe__btn.css");
+@import url(../blocks/alumni-stories/alumni-stories.css);
+@import url(../blocks/alumni-stories/__title/alumni-stories__title.css);
+@import url(../blocks/alumni-stories/__wrapper/alumni-stories__wrapper.css);
+@import url(../blocks/alumni-stories/__group/alumni-stories__group.css);
+@import url(../blocks/alumni-stories/__img/alumni-stories__img.css);
+@import url(../blocks/alumni-stories/__textBox/alumni-stories__textBox.css);
+@import url(../blocks/alumni-stories/__textBox-title/alumni-stories__textBox-title.css);
+@import url(../blocks/alumni-stories/__textBox/_mark-text/alumni-stories__textBox_mark-text.css);
+@import url(../blocks/alumni-stories/__textBox-name/alumni-stories__textBox-name.css);
+@import url(../blocks/alumni-stories/__textBox-description/alumni-stories__textBox-description.css);
+@import url(../blocks/alumni-stories/__textBox-link/alumni-stories__textBox-link.css);
+@import url(../blocks/alumni-stories/__button-arrow/alumni-stories__button-arrow.css);
+@import url(../blocks/alumni-stories/__button-slider/alumni-stories__button-slider.css);
+@import url(../blocks/alumni-stories/__button-slider/_right/alumni-stories__button-slider_right.css);
+@import url(../blocks/other-programms/other-programms.css);
+@import url(../blocks/other-programms/__item/other-programms__item.css);
+@import url(../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css);
+@import url(../blocks/other-programms/__background-image/other-programms__background-image.css);
+@import url(../blocks/other-programms/__head/other-programms__head.css);
+@import url(../blocks/other-programms/__logo/other-programms__logo.css);
+@import url(../blocks/other-programms/__programm/other-programms__programm.css);
+@import url(../blocks/other-programms/__title/other-programms__title.css);
+@import url(../blocks/other-programms/__info/other-programms__info.css);
+@import url(../blocks/other-programms/__about-programm/other-programms__about-programm.css);
+@import url(../blocks/other-programms/__item/_laptop-urgant/other-programms__item_laptop-urgant.css);
 
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
@@ -92,3 +117,28 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__otherrights/footer__otherrights.css");
 @import url("../blocks/footer/__registered/footer__registered.css");
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.slider__item {
+  height: 700px;
+}
+
+.slider__item_foundation {
+  height: 626px;
+}
+
+@media screen and (max-width: 567px) {
+  .slider__item_foundation {
+    min-height: 486px;
+  }
+} ;
