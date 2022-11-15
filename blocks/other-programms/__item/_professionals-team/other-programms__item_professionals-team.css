@@ -1,0 +1,17 @@
+.other-programms__item_professionals-team {
+  padding: 60px 0px 88px 52px;
+  background-color: #de6f7e;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms__item_professionals-team {
+    order: 2;
+    padding: 72px 0px 96px 52px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .other-programms__item_professionals-team {
+    padding: 32px 0px 40px 24px;
+  }
+}

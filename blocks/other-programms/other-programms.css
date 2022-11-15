@@ -1,0 +1,18 @@
+.other-programms {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  margin: 0px 0px -70px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .other-programms {
+    margin: 0px 0px -20px 0px;
+  }
+}

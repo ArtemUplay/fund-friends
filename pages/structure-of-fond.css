@@ -63,6 +63,7 @@
 /*--------Подключение стилей для fund-structure-card--------------------------*/
 @import url("../blocks/content/content.css");
 @import url("../blocks/fund-founders/fund-founders.css");
+@import url("../blocks/fund-structure-card/__position/fund-structure-card__position.css");
 @import url("../blocks/fund-structure-card/__description/fund-structure-card__description.css");
 @import url("../blocks/fund-structure-card/__image-wrapper/fund-structure-card__image-wrapper.css");
 @import url("../blocks/fund-structure-card/__image/fund-structure-card__image.css");
@@ -70,6 +71,23 @@
 @import url("../blocks/fund-structure-card/__name/fund-structure-card__name.css");
 @import url("../blocks/fund-structure-card/fund-structure-card.css");
 
+/*--------Подключение стилей для fund-structure-card--------------------------*/
+@import url("../blocks/expert-council/expert-council.css");
+@import url("../blocks/expert-council-description/expert-council-description.css");
+@import url("../blocks/expert-council-description/__text/expert-council-description__text.css");
+@import url("../blocks/expert-council-description/__wrapper/expert-council-description__wrapper.css");
+
+/*--------Подключение стилей для блока "Попечительский совет"--------------------------*/
+@import url("../blocks/board-of-trustees/board-of-trustees.css");
+@import url("../blocks/board-of-trustees-description/board-of-trustees-description.css");
+@import url("../blocks/board-of-trustees-description/__text/board-of-trustees-description__text.css");
+@import url("../blocks/board-of-trustees-description/__wrapper/board-of-trustees-description__wrapper.css");
+
+/*--------Подключение стилей для блока "Команда"--------------------------*/
+@import url("../blocks/team/team.css");
+@import url("../blocks/team-description/team-description.css");
+@import url("../blocks/team-description/__text/team-description__text.css");
+@import url("../blocks/team-description/__wrapper/team-description__wrapper.css");
 
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");

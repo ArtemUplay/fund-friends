@@ -1,0 +1,16 @@
+.other-programms__programm {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: #fff;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  opacity: .6;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .other-programms__programm {
+    font-size: 8px;
+  }
+}

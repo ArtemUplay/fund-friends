@@ -1,0 +1,7 @@
+.board-of-trustees-description {
+  width: 100%;
+  background-color: #F4F4F4;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 74px;
+}
