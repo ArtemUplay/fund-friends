@@ -74,8 +74,8 @@
 
 /* блок "Наши проекты" */
 @import url("../blocks/our-projects/our-projects.css");
-@import url("../blocks/accordion/__button/_open/accordion__button_open.css");
 @import url("../blocks/accordion/__button/accordion__button.css ");
+@import url("../blocks/accordion/__button/_open/accordion__button_open.css");
 @import url("../blocks/accordion/__content/accordion__content.css");
 @import url("../blocks/accordion/__image-title-wrapper/accordion__image-title-wrapper.css");
 @import url("../blocks/accordion/__image/accordion__image.css");
