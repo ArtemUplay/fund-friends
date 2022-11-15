@@ -1,0 +1,12 @@
+.useful-programm {
+  width: 100%;
+  max-width: 1080px;
+  box-sizing: border-box;
+  padding: 0px 24px 96px;
+}
+
+@media screen and (max-width: 565px) {
+  .useful-programm {
+    padding: 0px 0px 56px;
+  }
+}
