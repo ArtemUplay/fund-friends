@@ -60,6 +60,11 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+/*--Основное содержание страницы--*/
+@import url("../blocks/content/content.css");
+
+
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
