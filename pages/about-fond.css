@@ -82,6 +82,7 @@
 @import url("../blocks/accordion/__item/accordion__item.css");
 @import url("../blocks/accordion/__title-info/accordion__title-info.css");
 @import url("../blocks/accordion/accordion.css");
+@import url("../blocks/accordion/__wrapper/accordion__wrapper.css");
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");
