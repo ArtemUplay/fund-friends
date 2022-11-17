@@ -92,3 +92,16 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__otherrights/footer__otherrights.css");
 @import url("../blocks/footer/__registered/footer__registered.css");
+
+/* Стили формы «Стать партнёром» */
+@import url("../blocks/partner-up/partner-up.css");
+@import url("../blocks/partner-up/__subtitle/partner-up__subtitle.css");
+@import url("../blocks/partner-up/__form/partner-up__form.css");
+@import url("../blocks/partner-up/__form-wrapper/partner-up__form-wrapper.css");
+@import url("../blocks/partner-up/__input-text/partner-up__input-text.css");
+@import url("../blocks/partner-up/__input-message/partner-up__input-message.css");
+@import url("../blocks/partner-up/__input-link/partner-up__input-link.css");
+@import url("../blocks/partner-up/__input-checkbox/partner-up__input-checkbox.css");
+@import url("../blocks/partner-up/__input-checkbox-label/partner-up__input-checkbox-label.css");
+@import url("../blocks/partner-up/__input-button/partner-up__input-button.css");
+@import url("../blocks/partner-up/__input-text/_oneliner/partner-up__input-text_oneliner.css");
