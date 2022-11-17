@@ -1,10 +1,9 @@
 .vacancies {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
     width: 100%;
-    max-width: 1032px;
+    max-width: 1080px;
+    padding: 16px 24px 0;
+    box-sizing: border-box;
 }
-
-@media screen and (max-width: 1080px) {
-    .vacancies {
-        width: calc(100% - 24px);
-    }
-  }

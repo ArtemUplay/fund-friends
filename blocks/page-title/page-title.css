@@ -6,15 +6,10 @@
     font-weight: 700;
     line-height: 86px;
     width: 100%;
-    max-width: 1032px;
+    max-width: 1080px;
     padding: 48px 0 42px 24px;
+    box-sizing: border-box;
   }
-
-/* @media screen and (max-width: 1080px) {
-    .page-title {
-        width: calc(100% - 24px);
-    }
-  } */
 
 
   @media screen and (max-width: 736px) {
