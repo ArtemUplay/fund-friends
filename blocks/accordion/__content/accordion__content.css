@@ -3,10 +3,10 @@
   max-height: 0;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 16px 0 0 14px;
+  padding: 0px 20px;
   font-style: normal;
-  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  transition: 1s;
+  transition: .7s;
+  flex-basis: 100%;
 }
