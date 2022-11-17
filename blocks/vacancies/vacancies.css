@@ -1,0 +1,10 @@
+.vacancies {
+    width: 100%;
+    max-width: 1032px;
+}
+
+@media screen and (max-width: 1080px) {
+    .vacancies {
+        width: calc(100% - 24px);
+    }
+  }
