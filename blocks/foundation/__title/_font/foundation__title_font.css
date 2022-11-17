@@ -1,0 +1,19 @@
+.foundation__title_font {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 66px;
+}
+
+@media screen and (max-width: 1023px) {
+  .foundation__title_font {
+    font-size: 45px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .foundation__title_font {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
