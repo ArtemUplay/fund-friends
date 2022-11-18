@@ -1,11 +1,17 @@
 .foundation__title_font {
+  box-sizing: border-box;
+  margin-bottom: 24px;
   font-weight: 700;
   font-size: 62px;
   line-height: 66px;
+  padding-left: 123px;
+  padding-top: 123px;
+
 }
 
 @media screen and (max-width: 1023px) {
   .foundation__title_font {
+    padding-left: 88px;
     font-size: 45px;
     line-height: 42px;
   }
@@ -13,6 +19,9 @@
 
 @media screen and (max-width: 569px) {
   .foundation__title_font {
+    margin-bottom: 16px;
+    padding-left: 24px;
+    padding-top: 40px;
     font-size: 27px;
     line-height: 38px;
   }
