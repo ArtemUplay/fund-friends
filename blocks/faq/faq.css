@@ -1,0 +1,15 @@
+.faq {
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  padding: 16px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .faq {
+    padding: 40px 0px 56px;
+  }
+}
