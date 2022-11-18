@@ -206,21 +206,45 @@
       </article>
     </nav>
   </header>
-  <section class="subscribe" aria-label="subscription">
-    <div class="subscribe__wrapper">
-      <p class="subscribe__title">
-        Подпишитесь на&nbsp;новостную рассылку программы
-      </p>
-      <p class="subscribe__subtitle">
-        и получайте первыми наши новости и приглашения на семинары/вебинары
-      </p>
-    </div>
-    <label>
-      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
-        placeholder="Введите ваш e-mail">
-    </label>
-    <button type="submit" class="subscribe__btn">Подписаться</button>
-  </section>
+
+  <!--Основное содержание страницы-->
+  <main class="content">
+
+     <!--Секция Вакансии-->
+    <h2 class="page-title">Вакансии</h2>
+    <section class="vacancies">
+      <h3 class="vacancies__title">Москва</h3>
+      <ul class="accordion">
+        <li class="accordion__item">
+          <h4 class="accordion__title-info">Product manager</h4>
+        </li>
+        <li class="accordion__item">
+          <h4 class="accordion__title-info">Системный аналитик</h4>
+        </li>
+      </ul>
+    </section>
+
+
+      <!--Секция Подписка-->
+    <!-- <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail">
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section> -->
+
+  </main>
+
+  <!--Подвал-->
   <footer class="footer">
     <div class="footer__container">
       <img class="footer__logo" src="./images/footer_logo.svg" alt="logo">
