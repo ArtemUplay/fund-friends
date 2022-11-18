@@ -60,6 +60,23 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+/* Подключение блока FAQ */
+@import url("../blocks/faq/faq.css");
+@import url("../blocks/accordion/accordion.css");
+@import url("../blocks/accordion/__content/accordion__content.css");
+@import url("../blocks/accordion/__head-wrapper/accordion__head-wrapper.css");
+@import url("../blocks/accordion/__item/accordion__item.css");
+@import url("../blocks/accordion/__title-info/accordion__title-info.css");
+@import url("../blocks/accordion/__button/accordion__button.css");
+@import url("../blocks/accordion/__title-content/accordion__title-content.css");
+@import url("../blocks/accordion/__email/accordion__email.css");
+@import url("../blocks/accordion/__number/accordion__number.css");
+@import url("../blocks/accordion/__content-wrapper/accordion__content-wrapper.css");
+@import url("../blocks/accordion/__content-info/accordion__content-info.css");
+@import url("../blocks/accordion/__content-text/accordion__content-text.css");
+@import url("../blocks/accordion/__text-reports/accordion__text-reports.css");
+@import url("../blocks/accordion/__button/_open/accordion__button_open.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
