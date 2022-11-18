@@ -1,0 +1,13 @@
+.join-us__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0px 0px 16px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .join-us__title {
+    font-size: 34px;
+    line-height: 36px;
+  }
+}

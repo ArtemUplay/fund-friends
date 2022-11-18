@@ -1,0 +1,16 @@
+.join-us__button {
+  display: inline-flex;
+  background: #DE6F7E;
+  border-radius: 56px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  width: 100%;
+  max-width: 334px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 18px 0px;
+  cursor: pointer;
+}

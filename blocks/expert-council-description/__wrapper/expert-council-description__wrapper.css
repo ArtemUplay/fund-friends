@@ -1,0 +1,14 @@
+.expert-council-description__wrapper {
+  box-sizing: border-box;
+  max-width: 1080px;
+  width: 100%;
+  padding: 0 24px 0;
+  display: grid;
+  grid-template-columns: 766px;
+}
+
+@media (max-width: 815px) {
+  .expert-council-description__wrapper {
+    grid-template-columns: 1fr;
+  }
+}

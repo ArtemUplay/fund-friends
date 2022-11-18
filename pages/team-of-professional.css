@@ -60,6 +60,28 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+@import url("../blocks/content/content.css");
+
+@import url("../blocks/join-us/join-us.css");
+@import url("../blocks/join-us/__wrapper-info/join-us__wrapper-info.css");
+@import url("../blocks/join-us/__title/join-us__title.css");
+@import url("../blocks/join-us/__text/join-us__text.css");
+@import url("../blocks/join-us/__button/join-us__button.css");
+@import url("../blocks/join-us/__wrapper-image/join-us__wrapper-image.css");
+@import url("../blocks/join-us/__image/join-us__image.css");
+
+@import url("../blocks/other-programms/other-programms.css");
+@import url("../blocks/other-programms/__item/other-programms__item.css");
+@import url("../blocks/other-programms/__item/_moscow-school/other-programms__item_moscow-school.css");
+@import url("../blocks/other-programms/__item/_laptop-urgant/other-programms__item_laptop-urgant.css");
+@import url("../blocks/other-programms/__background-image/other-programms__background-image.css");
+@import url("../blocks/other-programms/__head/other-programms__head.css");
+@import url("../blocks/other-programms/__logo/other-programms__logo.css");
+@import url("../blocks/other-programms/__programm/other-programms__programm.css");
+@import url("../blocks/other-programms/__title/other-programms__title.css");
+@import url("../blocks/other-programms/__info/other-programms__info.css");
+@import url("../blocks/other-programms/__about-programm/other-programms__about-programm.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
