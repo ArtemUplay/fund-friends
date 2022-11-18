@@ -260,83 +260,85 @@
         </article>
       </nav>
     </header>
-    <section class="partner-up">
-      <h2 class="section__title">Стать партнёром</h2>
-      <p class="partner-up__subtitle">
-        Если вы&nbsp;хотите обсудить с&nbsp;командой фонда идеи
-        по&nbsp;сотрудничеству в&nbsp;области социальной ответственности или
-        поддержку вашей инициативы, напишите нам. Мы&nbsp;ответим в&nbsp;течение
-        дня
-      </p>
-      <form class="partner-up__form" name="partner-up">
-        <div class="partner-up__form-wrapper">
+    <main class="content">
+      <section class="partner-up">
+        <h2 class="section-title">Стать партнёром</h2>
+        <p class="partner-up__subtitle">
+          Если вы&nbsp;хотите обсудить с&nbsp;командой фонда идеи
+          по&nbsp;сотрудничеству в&nbsp;области социальной ответственности или
+          поддержку вашей инициативы, напишите нам. Мы&nbsp;ответим
+          в&nbsp;течение дня
+        </p>
+        <form class="partner-up__form" name="partner-up">
+          <div class="partner-up__form-wrapper">
+            <input
+              type="text"
+              class="partner-up__input-text"
+              required
+              placeholder="Ваше Имя"
+              name="name"
+            />
+            <input
+              type="email"
+              class="partner-up__input-text"
+              required
+              placeholder="E-mail"
+              name="email"
+            />
+          </div>
           <input
-            type="text"
-            class="partner-up__input-text"
+            type="organization"
+            class="partner-up__input-text partner-up__input-text_oneliner"
             required
-            placeholder="Имя"
-            name="name"
+            placeholder="Организация"
+            name="organization"
           />
+          <textarea
+            name="partner-up__input-message"
+            id=""
+            cols="30"
+            rows="10"
+            class="partner-up__input-message"
+            placeholder="Сообщение"
+          ></textarea>
+          <label class="partner-up__input-checkbox-label"
+            ><input
+              type="checkbox"
+              class="partner-up__input-checkbox"
+              required
+              name="checkbox"
+            /><span
+              >Я согласен c
+              <a href="/#" class="partner-up__input-link"
+                >пользовательским соглашением</a
+              ></span
+            ></label
+          >
+          <button type="submit" class="partner-up__input-button">
+            Отправить
+          </button>
+        </form>
+      </section>
+      <section class="subscribe" aria-label="subscription">
+        <div class="subscribe__wrapper">
+          <p class="subscribe__title">
+            Подпишитесь на&nbsp;новостную рассылку программы
+          </p>
+          <p class="subscribe__subtitle">
+            и получайте первыми наши новости и приглашения на семинары/вебинары
+          </p>
+        </div>
+        <label>
           <input
             type="email"
-            class="partner-up__input-text"
-            required
-            placeholder="E-mail"
-            name="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            class="subscribe__email"
+            placeholder="Введите ваш e-mail"
           />
-        </div>
-        <input
-          type="organization"
-          class="partner-up__input-text partner-up__input-text_oneliner"
-          required
-          placeholder="Организация"
-          name="organization"
-        />
-        <textarea
-          name="partner-up__input-message"
-          id=""
-          cols="30"
-          rows="10"
-          class="partner-up__input-message"
-          placeholder="Сообщение"
-        ></textarea>
-        <label class="partner-up__input-checkbox-label"
-          ><input
-            type="checkbox"
-            class="partner-up__input-checkbox"
-            required
-            name="checkbox"
-          /><span
-            >Я согласен c
-            <a href="/#" class="partner-up__input-link"
-              >пользовательским соглашением</a
-            ></span
-          ></label
-        >
-        <button type="submit" class="partner-up__input-button">
-          Отправить
-        </button>
-      </form>
-    </section>
-    <section class="subscribe" aria-label="subscription">
-      <div class="subscribe__wrapper">
-        <p class="subscribe__title">
-          Подпишитесь на&nbsp;новостную рассылку программы
-        </p>
-        <p class="subscribe__subtitle">
-          и получайте первыми наши новости и приглашения на семинары/вебинары
-        </p>
-      </div>
-      <label>
-        <input
-          type="email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          class="subscribe__email"
-          placeholder="Введите ваш e-mail"
-        />
-      </label>
-      <button type="submit" class="subscribe__btn">Подписаться</button>
-    </section>
+        </label>
+        <button type="submit" class="subscribe__btn">Подписаться</button>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__container">
         <img class="footer__logo" src="./images/footer_logo.svg" alt="logo" />
