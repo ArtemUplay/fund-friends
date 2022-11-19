@@ -60,12 +60,15 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+@import url("../blocks/content/content.css");
+
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
 @import url("../blocks/subscribe/__email/subscribe__email.css");
 @import url("../blocks/subscribe/__btn/subscribe__btn.css");
+
 @import url(../blocks/alumni-stories/alumni-stories.css);
 @import url(../blocks/alumni-stories/__title/alumni-stories__title.css);
 @import url(../blocks/alumni-stories/__wrapper/alumni-stories__wrapper.css);
