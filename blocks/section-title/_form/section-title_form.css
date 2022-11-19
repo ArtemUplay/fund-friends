@@ -1,0 +1,13 @@
+.section-title_form {
+  font-family: "Inter", "Arial", sans-serif;
+  margin: 0px 0px 8px;
+  font-size: 44px;
+  line-height: 57.2px;
+}
+
+@media (max-width: 767px) {
+  .section-title_form {
+    font-size: 32px;
+    line-height: 41.6px;
+  }
+}
