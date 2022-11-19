@@ -1,0 +1,22 @@
+.nko-study__slide-title {
+    margin: 0;
+    padding-left: 124px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1023px) {
+    .nko-study__slide-title {
+        padding-left: 88px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nko-study__slide-title {
+        display: none;
+    }
+}
