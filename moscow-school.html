@@ -207,6 +207,44 @@
     </nav>
   </header>
   <main class="content">
+
+    <!-- секция курсы лидеров НКО -->
+    <section class="nko-study">
+      <div class="nko-study__slider">
+    
+      </div>
+      <div class="nko-study__container">
+        <h2 class="nko-study__title">Курс для лидеров НКО</h2>
+        <p class="nko-study__discription">
+                Он состоит из 8 модулей и охватывает все темы – от анализа и стратегического планирования до личного бренда руководителя. 
+                Пройти обучение в школе могут как действующие руководители НКО, так и те, 
+                кто решил перейти в социальную сферу из бизнеса или государственного управления.
+        </p>
+        <button class="nko-study__button">
+          <span>Подробнее</span>
+          <i class="nko-study__button-arrow"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- секция с подпиской -->
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail" />
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section>
+
+    <!-- секция истории выпускников -->
     <!-- <section class="alumni-stories">
       <h1 class="alumniStories__title">Истории выпускников</h1>
       <div id="viewport">
@@ -308,7 +346,10 @@
         </div>
       </div>
     </section> -->
+
+    <!-- секция полезное о школе -->
     <h2 class="page-title page-title_useful-aboutSchool">Полезное о школе</h2>
+
     <section class="faq faq_useful-aboutSchool">
       <ul class="accordion">
         <li class="accordion__item">
@@ -385,21 +426,8 @@
         </li>
       </ul>
     </section>
-    <section class="subscribe" aria-label="subscription">
-      <div class="subscribe__wrapper">
-        <p class="subscribe__title">
-          Подпишитесь на&nbsp;новостную рассылку программы
-        </p>
-        <p class="subscribe__subtitle">
-          и получайте первыми наши новости и приглашения на семинары/вебинары
-        </p>
-      </div>
-      <label>
-        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
-          placeholder="Введите ваш e-mail" />
-      </label>
-      <button type="submit" class="subscribe__btn">Подписаться</button>
-    </section>
+
+    <!-- секция другие программы -->
     <section class="other-programms">
       <div class="other-programms__item other-programms__item_laptop-urgant">
         <img src="images/urgant-laptop.png" alt="Ноутбук" class="other-programms__background-image" />
@@ -428,6 +456,8 @@
       </div>
     </section>
   </main>
+
+  <!-- подвал -->
   <footer class="footer">
     <div class="footer__container">
       <img class="footer__logo" src="./images/footer_logo.svg" alt="logo" />
@@ -491,6 +521,8 @@
       <img class="footer__registered" src="./images/footer_registered.svg" alt="duns registered" />
     </div>
   </footer>
+
+  <!-- скрипты -->
   <script src="./scripts/index.js" defer></script>
   <script src="./scripts/radioButtonStyle.js" defer></script>
   <script src="./scripts/accordion.js"></script>
