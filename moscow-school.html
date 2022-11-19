@@ -262,199 +262,219 @@
       </nav>
     </header>
 
-    <!-- секция подписка -->
-    <section class="subscribe" aria-label="subscription">
-      <div class="subscribe__wrapper">
-        <p class="subscribe__title">
-          Подпишитесь на&nbsp;новостную рассылку программы
-        </p>
-        <p class="subscribe__subtitle">
-          и получайте первыми наши новости и приглашения на семинары/вебинары
-        </p>
-      </div>
-      <label>
-        <input
-          type="email"
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          class="subscribe__email"
-          placeholder="Введите ваш e-mail"
-        />
-      </label>
-      <button type="submit" class="subscribe__btn">Подписаться</button>
-    </section>
+    <main class="content">
+      <section class="nko-study">
+        <div class="nko-study__slider">
 
-    <!-- секция Истории выпускников -->
-    <!-- <section class="alumni-stories">
-      <h1 class="alumniStories__title">Истории выпускников</h1>
-      <div id="viewport" class="slider slider__friends">
-        <div class="alumni-stories__wrapper">
-          <button
-            class="alumni-stories__button-slider slider__control"
-            data-slide="prev"
-          >
-            <span class="sr-only">Go left</span>
-             <img src="./images/Arrow-left.svg" alt="arrow-left" />
+        </div>
+        <div class="nko-study__container">
+          <h2 class="nko-study__title">Курс для лидеров НКО</h2>
+          <p class="nko-study__discription">
+            Он состоит из 8 модулей и охватывает все темы – от анализа и стратегического планирования до личного бренда руководителя. 
+            Пройти обучение в школе могут как действующие руководители НКО, так и те, 
+            кто решил перейти в социальную сферу из бизнеса или государственного управления.
+          </p>
+          <button class="nko-study__button">
+            <span>Подробнее</span>
+            <i class="nko-study__button-arrow"></i>
           </button>
-          <button
-            class="alumni-stories__textBox-link slider__control"
-            data-slide="next"
-          >
-            <span class="sr-only">Right</span>
-             <img
-            class="alumni-stories__button-arrow"
-            src="./images/arrow up.svg"
-            alt="arrowup"
+        </div>
+      </section>
+
+      <!-- секция подписка -->
+      <section class="subscribe" aria-label="subscription">
+        <div class="subscribe__wrapper">
+          <p class="subscribe__title">
+            Подпишитесь на&nbsp;новостную рассылку программы
+          </p>
+          <p class="subscribe__subtitle">
+            и получайте первыми наши новости и приглашения на семинары/вебинары
+          </p>
+        </div>
+        <label>
+          <input
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            class="subscribe__email"
+            placeholder="Введите ваш e-mail"
           />
-          </button>
-          <div class="alumni-stories__group">
-            <img
-              class="alumni-stories__img"
-              src="./images/aleksei artemiev.svg"
-              alt="img of alumni"
-            />
-            <div class="alumni-stories__textBox">
-              <h2 class="alumni-stories__textBox-title">
-                &laquo;<span class="alumni-stories__textBox_mark-text"
-                  >Максимальный</span
-                >
-                результат
-                <span class="alumni-stories__textBox_mark-text">в</span
-                >&nbsp;сжатые сроки&raquo;
-              </h2>
-              <p class="alumni-stories__textBox-name">Алексей Артемьев</p>
-              <p class="alumni-stories__textBox-description">
-                Финансист по&nbsp;профессии, Алексей Артемьев пришел
-                в&nbsp;МШПФ, чтобы разобраться, как устроена благотворительность
-                изнутри&nbsp;&mdash; и&nbsp;уверен, что лучше, чем Школа, места
-                для этого не&nbsp;найти...
-              </p>
-              <button class="alumni-stories__textBox-link">
-                Подробнее
-                <img
-                  class="alumni-stories__button-arrow"
-                  src="./images/arrow up.svg"
-                  alt="arrowup"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="alumni-stories__group">
-            <img
-              class="alumni-stories__img"
-              src="./images/kira smirnova.svg"
-              alt="img of alumni"
-            />
-            <div class="alumni-stories__textBox">
-              <h2 class="alumni-stories__textBox-title">
-                &laquo;В&nbsp;Школу
-                <span class="alumni-stories__textBox_mark-text"
-                  >надо приходить за&nbsp;пищей</span
-                >
-                для ума
-                <span class="alumni-stories__textBox_mark-text"
-                  >и&nbsp;вдохновением&raquo;</span
-                >
-              </h2>
-              <p class="alumni-stories__textBox-name">Кира Смирнова</p>
-              <p class="alumni-stories__textBox-description">
-                Свое решение пойти учиться в&nbsp;МШПФ Кира объясняет
-                стремлением получить системное образование
-                в&nbsp;благотворительной индустрии. Кира стала лучшим студентом
-                МШПФ по&nbsp;мнению ...
-              </p>
-              <button class="alumni-stories__textBox-link">
-                Подробнее
-                <img
-                  class="alumni-stories__button-arrow"
-                  src="./images/arrow up.svg"
-                  alt="arrowup"
-                />
-              </button>
-            </div>
-          </div>
-          <div class="alumni-stories__group">
-            <button class="alumni-stories__button-slider_right">
-              <img src="./images/arrow-right.svg" alt="arrow-right" />
+        </label>
+        <button type="submit" class="subscribe__btn">Подписаться</button>
+      </section>
+
+      <!-- секция Истории выпускников -->
+      <!-- <section class="alumni-stories">
+        <h1 class="alumniStories__title">Истории выпускников</h1>
+        <div id="viewport" class="slider slider__friends">
+          <div class="alumni-stories__wrapper">
+            <button
+              class="alumni-stories__button-slider slider__control"
+              data-slide="prev"
+            >
+              <span class="sr-only">Go left</span>
+              <img src="./images/Arrow-left.svg" alt="arrow-left" />
             </button>
-            <img
-              class="alumni-stories__img"
-              src="./images/tatiana chestina.svg"
-              alt="img of alumni"
+            <button
+              class="alumni-stories__textBox-link slider__control"
+              data-slide="next"
+            >
+              <span class="sr-only">Right</span>
+              <img
+              class="alumni-stories__button-arrow"
+              src="./images/arrow up.svg"
+              alt="arrowup"
             />
-            <div class="alumni-stories__textBox">
-              <h2 class="alumni-stories__textBox-title">
-                &laquo;В&nbsp;Школу
-                <span class="alumni-stories__textBox_mark-text"
-                  >надо приходить за&nbsp;пищей для ума</span
-                >
-                и&nbsp;вдохновением&raquo;
-              </h2>
-              <p class="alumni-stories__textBox-name">Татьяна Честина</p>
-              <p class="alumni-stories__textBox-description">
-                История Татьяны&nbsp;&mdash; это ещё одна история человека
-                из&nbsp;некоммерческого сектора, которому в&nbsp;какой-то момент
-                критически важно было пересмотреть свои взгляды на ...
-              </p>
+            </button>
+            <div class="alumni-stories__group">
+              <img
+                class="alumni-stories__img"
+                src="./images/aleksei artemiev.svg"
+                alt="img of alumni"
+              />
+              <div class="alumni-stories__textBox">
+                <h2 class="alumni-stories__textBox-title">
+                  &laquo;<span class="alumni-stories__textBox_mark-text"
+                    >Максимальный</span
+                  >
+                  результат
+                  <span class="alumni-stories__textBox_mark-text">в</span
+                  >&nbsp;сжатые сроки&raquo;
+                </h2>
+                <p class="alumni-stories__textBox-name">Алексей Артемьев</p>
+                <p class="alumni-stories__textBox-description">
+                  Финансист по&nbsp;профессии, Алексей Артемьев пришел
+                  в&nbsp;МШПФ, чтобы разобраться, как устроена благотворительность
+                  изнутри&nbsp;&mdash; и&nbsp;уверен, что лучше, чем Школа, места
+                  для этого не&nbsp;найти...
+                </p>
+                <button class="alumni-stories__textBox-link">
+                  Подробнее
+                  <img
+                    class="alumni-stories__button-arrow"
+                    src="./images/arrow up.svg"
+                    alt="arrowup"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="alumni-stories__group">
+              <img
+                class="alumni-stories__img"
+                src="./images/kira smirnova.svg"
+                alt="img of alumni"
+              />
+              <div class="alumni-stories__textBox">
+                <h2 class="alumni-stories__textBox-title">
+                  &laquo;В&nbsp;Школу
+                  <span class="alumni-stories__textBox_mark-text"
+                    >надо приходить за&nbsp;пищей</span
+                  >
+                  для ума
+                  <span class="alumni-stories__textBox_mark-text"
+                    >и&nbsp;вдохновением&raquo;</span
+                  >
+                </h2>
+                <p class="alumni-stories__textBox-name">Кира Смирнова</p>
+                <p class="alumni-stories__textBox-description">
+                  Свое решение пойти учиться в&nbsp;МШПФ Кира объясняет
+                  стремлением получить системное образование
+                  в&nbsp;благотворительной индустрии. Кира стала лучшим студентом
+                  МШПФ по&nbsp;мнению ...
+                </p>
+                <button class="alumni-stories__textBox-link">
+                  Подробнее
+                  <img
+                    class="alumni-stories__button-arrow"
+                    src="./images/arrow up.svg"
+                    alt="arrowup"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="alumni-stories__group">
+              <button class="alumni-stories__button-slider_right">
+                <img src="./images/arrow-right.svg" alt="arrow-right" />
+              </button>
+              <img
+                class="alumni-stories__img"
+                src="./images/tatiana chestina.svg"
+                alt="img of alumni"
+              />
+              <div class="alumni-stories__textBox">
+                <h2 class="alumni-stories__textBox-title">
+                  &laquo;В&nbsp;Школу
+                  <span class="alumni-stories__textBox_mark-text"
+                    >надо приходить за&nbsp;пищей для ума</span
+                  >
+                  и&nbsp;вдохновением&raquo;
+                </h2>
+                <p class="alumni-stories__textBox-name">Татьяна Честина</p>
+                <p class="alumni-stories__textBox-description">
+                  История Татьяны&nbsp;&mdash; это ещё одна история человека
+                  из&nbsp;некоммерческого сектора, которому в&nbsp;какой-то момент
+                  критически важно было пересмотреть свои взгляды на ...
+                </p>
+              </div>
             </div>
           </div>
+          <ol class="slider__indicators">
+            <li class="slider__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator" data-slide-to="3"></li>
+            <li class="slider__indicator" data-slide-to="4"></li>
+            <li class="slider__indicator" data-slide-to="5"></li>
+            <li class="slider__indicator" data-slide-to="6"></li>
+          </ol>
         </div>
-        <ol class="slider__indicators">
-          <li class="slider__indicator" data-slide-to="0"></li>
-          <li class="slider__indicator" data-slide-to="1"></li>
-          <li class="slider__indicator" data-slide-to="2"></li>
-          <li class="slider__indicator" data-slide-to="3"></li>
-          <li class="slider__indicator" data-slide-to="4"></li>
-          <li class="slider__indicator" data-slide-to="5"></li>
-          <li class="slider__indicator" data-slide-to="6"></li>
-        </ol>
-      </div>
-    </section> -->
+      </section> -->
 
-    <!-- секция другие программы -->
-    <section class="other-programms">
-      <div class="other-programms__item other-programms__item_laptop-urgant">
-        <img
-          src="images/urgant-laptop.png"
-          alt="Ноутбук"
-          class="other-programms__background-image"
-        />
-        <div class="other-programms__head">
+      <!-- секция другие программы -->
+      <section class="other-programms">
+        <div class="other-programms__item other-programms__item_laptop-urgant">
           <img
-            src="images/procharity 1.svg"
-            alt="Логотип ProCharity"
-            class="other-programms__logo"
+            src="images/urgant-laptop.png"
+            alt="Ноутбук"
+            class="other-programms__background-image"
           />
-          <h4 class="other-programms__programm">Программа</h4>
+          <div class="other-programms__head">
+            <img
+              src="images/procharity 1.svg"
+              alt="Логотип ProCharity"
+              class="other-programms__logo"
+            />
+            <h4 class="other-programms__programm">Программа</h4>
+          </div>
+          <h3 class="other-programms__title">ProCharity</h3>
+          <p class="other-programms__info">
+            Скорая интеллектуальная помощь для благотворительных фондов
+          </p>
+          <a href="#" class="other-programms__about-programm">О программе</a>
         </div>
-        <h3 class="other-programms__title">ProCharity</h3>
-        <p class="other-programms__info">
-          Скорая интеллектуальная помощь для благотворительных фондов
-        </p>
-        <a href="#" class="other-programms__about-programm">О программе</a>
-      </div>
-      <div
-        class="other-programms__item other-programms__item_professionals-team"
-      >
-        <img
-          src="images/professionals-team.png"
-          alt="Команда профессионалов"
-          class="other-programms__background-image"
-        />
-        <div class="other-programms__head">
+        <div
+          class="other-programms__item other-programms__item_professionals-team"
+        >
           <img
-            src="images/professionallogo.svg"
-            alt="Логотип московской школы"
-            class="other-programms__logo"
+            src="images/professionals-team.png"
+            alt="Команда профессионалов"
+            class="other-programms__background-image"
           />
-          <h4 class="other-programms__programm">Программа</h4>
+          <div class="other-programms__head">
+            <img
+              src="images/professionallogo.svg"
+              alt="Логотип московской школы"
+              class="other-programms__logo"
+            />
+            <h4 class="other-programms__programm">Программа</h4>
+          </div>
+          <h3 class="other-programms__title">Команда профессионалов</h3>
+          <p class="other-programms__info">
+            Повышение квалификации и профессионализма сотрудников НКО
+          </p>
+          <a href="#" class="other-programms__about-programm">О программе</a>
         </div>
-        <h3 class="other-programms__title">Команда профессионалов</h3>
-        <p class="other-programms__info">
-          Повышение квалификации и профессионализма сотрудников НКО
-        </p>
-        <a href="#" class="other-programms__about-programm">О программе</a>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- подвал страницы -->
     <footer class="footer">
