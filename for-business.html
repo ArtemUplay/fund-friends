@@ -206,21 +206,121 @@
       </article>
     </nav>
   </header>
-  <section class="subscribe" aria-label="subscription">
-    <div class="subscribe__wrapper">
-      <p class="subscribe__title">
-        Подпишитесь на&nbsp;новостную рассылку программы
-      </p>
-      <p class="subscribe__subtitle">
-        и получайте первыми наши новости и приглашения на семинары/вебинары
-      </p>
-    </div>
-    <label>
-      <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
-        placeholder="Введите ваш e-mail">
-    </label>
-    <button type="submit" class="subscribe__btn">Подписаться</button>
-  </section>
+  <!-- Основной контент -->
+  <main class="content">
+    <h2 class="section-title section-title_padding section-title_font">Наши проекты</h2>
+    <section class="slides-foundation slides-foundation_section-padding">
+      <div class="slider slider__foundation" data-slider data-autoplay="true" data-interval="10000">
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__first-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Яндекс и «Друзья» <span class="foundation__title_span">запустили</span> поддержку НКО
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_font">
+                  В 2020 году фонд «Друзья» стал постоянным инфраструктурным партнером социального проекта «Помощь
+                  рядом» компании Яндекс, верифицируя заявки от НКО и обеспечивая им доступ к бесплатным сервисам
+                  компании для НКО, а также оказывая консалтинг по специальным запросам компании в области
+                  благотворительности.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__second-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Lamoda и Фонд «Друзья» <span class="foundation__title_span">провели</span> благотворительный флешмоб
+                  #Друзьяladoma
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  В 2020 году фонд “Друзья” совместно с компанией lamoda провели флешмоб с участием российских звезд, в
+                  котором призвали всех жителей оставаться дома и соблюдать режим самоизоляции. Проект #друзьяladoma
+                  является примером ситуативной коллаборации бизнеса и НКО, которые в трудный момент объединили усилия
+                  для реализации важной социальной
+                  миссии.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__third-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Благотворительный <span class="foundation__title_span">теннисный турнир</span> Bosco Friends Open
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  Фонд «Друзья» и компания Bosco di Ciliegi ежегодно проводит
+                  благотворительный теннисный турнир с участием звезд российского тенниса, олимпийских чемпионов и
+                  известных представителей бизнеса и медиаиндустрии. Благодаря поддержке Bosco фонд «Друзья»
+                  привлекает от одного до восьми миллионов рублей на развитие благотворительности.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation foundation__subtitle_text-overflow">
+              <div class="foundation foundation__fourth-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Запуск платформы ProCharity <span class="foundation__title_span">при поддержке</span> Mastercard
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  В 2017 году фонд «Друзья» запустил платформу интеллектуального
+                  волонтерства ProCharity при поддержке компании Mastercard, которая выступила генеральным партнером
+                  проекта и выделила финансирование на разработку сайта и дальнейшую реализацию проекта до конца 2021
+                  года.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation foundation__subtitle_text-overflow foundation__subtitle_font">
+              <div class="foundation foundation__fifth-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Развитие корпоративного волонтерства <span class="foundation__title_span">на базе платформы</span>
+                  ProCharity
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  С 2019 года платформа ProCharity служит онлайн-площадкой для
+                  эффективного внедрения интеллектуального волонтерства в корпоративную культуру, программы КСО, HR и
+                  внутренних
+                  коммуникациях в бизнес-компаниях. Партнерами проекта уже стали Альфа-банк, Сибур, Ростелеком,
+                  Coca-Cola, Билайн, X5 Group, McKinsey и другие международные компании.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+        <ol class="slider__indicators slider__indicator_position">
+          <li class="slider__indicator slider__indicator_foundation " data-slide-to="0">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="1">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="2">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="3">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="4">
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- Подписка на рассылку -->
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail">
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section>
+  </main>
   <footer class="footer">
     <div class="footer__container">
       <img class="footer__logo" src="./images/footer_logo.svg" alt="logo">
@@ -285,7 +385,7 @@
     </div>
   </footer>
   <script src="./scripts/index.js" defer></script>
-  <script src="./scripts/radioButtonStyle.js" defer></script>
+  <script src="./vendor/slider/slider.js"></script>
 </body>
 
 </html>
