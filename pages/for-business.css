@@ -95,6 +95,7 @@
 
 /* Стили формы «Стать партнёром» */
 @import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_form/section-title_form.css");
 @import url("../blocks/partner-up/partner-up.css");
 @import url("../blocks/partner-up/__subtitle/partner-up__subtitle.css");
 @import url("../blocks/partner-up/__form/partner-up__form.css");
