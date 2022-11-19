@@ -6,6 +6,10 @@
   max-height: 626px;
 }
 
+.slider__nko-study {
+  max-height: 600px;
+}
+
 
 @media screen and (max-width: 567px) {
   .slider__foundation {
