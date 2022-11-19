@@ -1,0 +1,11 @@
+.section-title_font {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+}
+  @media (max-width: 767px) {
+    .section-title_font {
+      font-size: 30px;
+      line-height: 1.38;
+    }
+  }
