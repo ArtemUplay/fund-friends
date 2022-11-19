@@ -1,0 +1,15 @@
+.useful-programm {
+  width: 100%;
+  max-width: 1080px;
+  box-sizing: border-box;
+  padding: 0px 24px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 670px) {
+  .useful-programm {
+    padding: 0px 0px 56px;
+  }
+}

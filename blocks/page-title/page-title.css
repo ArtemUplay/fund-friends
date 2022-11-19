@@ -1,0 +1,20 @@
+.page-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 86px;
+    width: 100%;
+    max-width: 1080px;
+    padding: 48px 0 42px 24px;
+    box-sizing: border-box;
+  }
+
+
+  @media screen and (max-width: 736px) {
+    .page-title {
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }

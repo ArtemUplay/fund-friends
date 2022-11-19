@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="pages/moscow-school.css" />
-    <!-- <link rel="stylesheet" href="vendor/slider.css" /> -->
     <title>Название проекта</title>
   </head>
 
@@ -282,25 +281,10 @@
     </section>
     <!-- <section class="alumni-stories">
       <h1 class="alumniStories__title">Истории выпускников</h1>
-      <div id="viewport" class="slider slider__friends">
+      <div id="viewport">
         <div class="alumni-stories__wrapper">
-          <button
-            class="alumni-stories__button-slider slider__control"
-            data-slide="prev"
-          >
-            <span class="sr-only">Go left</span>
-             <img src="./images/Arrow-left.svg" alt="arrow-left" />
-          </button>
-          <button
-            class="alumni-stories__textBox-link slider__control"
-            data-slide="next"
-          >
-            <span class="sr-only">Right</span>
-             <img
-            class="alumni-stories__button-arrow"
-            src="./images/arrow up.svg"
-            alt="arrowup"
-          />
+          <button class="alumni-stories__button-slider">
+            <img src="./images/Arrow-left.svg" alt="arrow-left" />
           </button>
           <div class="alumni-stories__group">
             <img
@@ -334,7 +318,7 @@
               </button>
             </div>
           </div>
-          <div class="alumni-stories__group">
+          <div class="alumni-stories__group alumni-stories__group_hidden">
             <img
               class="alumni-stories__img"
               src="./images/kira smirnova.svg"
@@ -368,7 +352,7 @@
               </button>
             </div>
           </div>
-          <div class="alumni-stories__group">
+          <div class="alumni-stories__group alumni-stories__group_hidden">
             <button class="alumni-stories__button-slider_right">
               <img src="./images/arrow-right.svg" alt="arrow-right" />
             </button>
@@ -394,17 +378,88 @@
             </div>
           </div>
         </div>
-        <ol class="slider__indicators">
-          <li class="slider__indicator" data-slide-to="0"></li>
-          <li class="slider__indicator" data-slide-to="1"></li>
-          <li class="slider__indicator" data-slide-to="2"></li>
-          <li class="slider__indicator" data-slide-to="3"></li>
-          <li class="slider__indicator" data-slide-to="4"></li>
-          <li class="slider__indicator" data-slide-to="5"></li>
-          <li class="slider__indicator" data-slide-to="6"></li>
-        </ol>
       </div>
     </section> -->
+    <h2 class="page-title page-title_useful-aboutSchool">Полезное о школе</h2>
+    <section class="faq faq_useful-aboutSchool">
+      <ul class="accordion">
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">Как проходит отбор?</h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Я профессионал и соответствую критериям, но меня не взяли –
+              почему?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Преподают ли учредители фонда «Друзья»?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              В каком формате проходит обучение?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Обучение очное или дистанционное?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Можно ли посещать модули выборочно?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Кто может получить финансовую поддержку для оплаты обучения?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              А можно ли претендовать на поддержку в оплате обучения, но самому
+              искать финансирование? И какие могут быть источники?
+            </h3>
+            <button
+              type="button"
+              class="accordion__button accordion__button_center"
+            ></button>
+          </div>
+        </li>
+        <li class="accordion__item">
+          <div class="accordion__head-wrapper">
+            <h3 class="accordion__title-info">
+              Какой диплом я получу после окончания обучения?
+            </h3>
+            <button type="button" class="accordion__button"></button>
+          </div>
+        </li>
+      </ul>
+    </section>
     <section class="other-programms">
       <div class="other-programms__item other-programms__item_laptop-urgant">
         <img
@@ -539,6 +594,6 @@
     </footer>
     <script src="./scripts/index.js" defer></script>
     <script src="./scripts/radioButtonStyle.js" defer></script>
-    <!-- <script src="./vendor/slider.js"></script> -->
+    <script src="./scripts/accordion.js"></script>
   </body>
 </html>
