@@ -1,6 +1,5 @@
-.alumni-stories__textBox-link {
-  padding-left: 24px;
-  border: none;
+.alumni-stories-card__link {
+  text-decoration: none;
   background-color: #f8f8f8;
   color: #424242;
   cursor: pointer;
@@ -9,4 +8,9 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.alumni-stories-card__link::after {
+  content: url("../../../images/arrow-up.svg");
+  margin-left: 10px;
 }

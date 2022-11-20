@@ -1,0 +1,13 @@
+.alumni-stories-card__text-box {
+  max-width: 358px;
+  width: 100%;
+  background-color: #F8F8F8;
+  min-height: 443px;
+  padding: 0 54px 0 24px;
+}
+
+@media (max-width: 480px) {
+  .alumni-stories-card__text-box {
+    padding: 0 46px 0 16px;
+  }
+}

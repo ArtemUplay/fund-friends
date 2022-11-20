@@ -1,11 +1,17 @@
-.alumni-stories__textBox-name {
+.alumni-stories-card__name {
   font-family: "iter", "serif";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   color: #000000;
-  padding-left: 24px;
   padding-bottom: 16px;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+  .alumni-stories-card__name {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }

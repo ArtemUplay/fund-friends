@@ -1,0 +1,13 @@
+.alumni-stories-card__quote {
+  color: #82607d;
+  line-height: 160%;
+  margin: 0;
+  padding-top: 94px;
+  font-family: '"inter", serif';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}

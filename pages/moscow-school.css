@@ -114,22 +114,19 @@
 @import url("../blocks/subscribe/__email/subscribe__email.css");
 @import url("../blocks/subscribe/__btn/subscribe__btn.css");
 
+@import url(../blocks/section-title/section-title.css);
 @import url(../blocks/alumni-stories/alumni-stories.css);
-@import url(../blocks/alumni-stories/__title/alumni-stories__title.css);
-@import url(../blocks/alumni-stories/__wrapper/alumni-stories__wrapper.css);
-@import url(../blocks/alumni-stories/__group/alumni-stories__group.css);
-@import url(../blocks/alumni-stories/__group/_hidden/alumni-stories__group_hidden.css);
-@import url(../blocks/alumni-stories/__img/alumni-stories__img.css);
-@import url(../blocks/alumni-stories/__textBox/alumni-stories__textBox.css);
-@import url(../blocks/alumni-stories/__textBox-title/alumni-stories__textBox-title.css);
-@import url(../blocks/alumni-stories/__textBox/_mark-text/alumni-stories__textBox_mark-text.css);
-@import url(../blocks/alumni-stories/__textBox-name/alumni-stories__textBox-name.css);
-@import url(../blocks/alumni-stories/__textBox-description/alumni-stories__textBox-description.css);
-@import url(../blocks/alumni-stories/__textBox-link/alumni-stories__textBox-link.css);
-@import url(../blocks/alumni-stories/__button-arrow/alumni-stories__button-arrow.css);
-@import url(../blocks/alumni-stories/__button-slider/alumni-stories__button-slider.css);
-@import url(../blocks/alumni-stories/__button-slider/_right/alumni-stories__button-slider_right.css);
+@import url(../blocks/alumni-stories-card/alumni-stories-card.css);
+@import url(../blocks/alumni-stories-card/__description/alumni-stories-card__description.css);
+@import url(../blocks/alumni-stories-card/__img/alumni-stories-card__img.css);
+@import url(../blocks/alumni-stories-card/__link/alumni-stories-card__link.css);
+@import url(../blocks/alumni-stories-card/__quote/_mark-text/alumni-stories-card__quote_mark-text.css);
+@import url(../blocks/alumni-stories-card/__name/alumni-stories-card__name.css);
+@import url(../blocks/alumni-stories-card/__quote/alumni-stories-card__quote.css);
+@import url(../blocks/alumni-stories-card/__text-box/alumni-stories-card__text-box.css);
 @import url(../blocks/slider/slider.css);
+@import url(../vendor/itc-slider/itc-slider.css);
+
 @import url(../blocks/other-programms/other-programms.css);
 @import url(../blocks/other-programms/__item/other-programms__item.css);
 @import url(../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css);
