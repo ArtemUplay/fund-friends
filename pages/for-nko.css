@@ -92,3 +92,21 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__otherrights/footer__otherrights.css");
 @import url("../blocks/footer/__registered/footer__registered.css");
+
+/* Подключаем стили для секции «Ключевые программы фонда для НКО» */
+@import url("../blocks/other-programms/other-programms.css");
+@import url("../blocks/other-programms/__about-programm/other-programms__about-programm.css");
+@import url("../blocks/other-programms/__background-image/other-programms__background-image.css");
+@import url("../blocks/other-programms/__head/other-programms__head.css");
+@import url("../blocks/other-programms/__info/other-programms__info.css");
+@import url("../blocks/other-programms/__item/other-programms__item.css");
+@import url("../blocks/other-programms/__item/_laptop-urgant/other-programms__item_laptop-urgant.css");
+@import url("../blocks/other-programms/__item/_moscow-school/other-programms__item_moscow-school.css");
+@import url("../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css");
+@import url("../blocks/other-programms/__logo/_moscow-school/other-programms__logo_moscow-school.css");
+@import url("../blocks/other-programms/__logo/other-programms__logo.css");
+@import url("../blocks/other-programms/__programm/other-programms__programm.css");
+@import url("../blocks/other-programms/__title/other-programms__title.css");
+@import url("../blocks/other-programms/__logo/_pro/other-programms__logo_pro.css");
+@import url("../blocks/other-programms/__about-programm/_nko/other-programms__about-programm_nko.css");
+@import url("../blocks/other-programms/__title/_nko/other-programms__title_nko.css");
