@@ -11,6 +11,6 @@
 
 @media screen and (max-width:650px) {
   .other-programms__title {
-    max-width: 100%;
+    max-width: 300px;
   }
 }
