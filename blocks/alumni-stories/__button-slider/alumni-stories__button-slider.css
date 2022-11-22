@@ -1,0 +1,15 @@
+.alumni-stories__button-slider {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  align-self: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 766px) {
+  .alumni-stories__button-slider {
+    display: none;
+  }
+}

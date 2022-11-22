@@ -1,0 +1,19 @@
+.alumni-stories__group {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* .alumni-stories__group:first-of-type {
+  padding-left: 42px;
+} */
+@media screen and (min-width: 375px) and (max-width: 766px) {
+  .alumni-stories__group {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .alumni-stories__group:first-of-type {
+    padding-left: 0px;
+  }
+}
