@@ -13,11 +13,10 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: start;
     background-image: url(../../../images/arrow-up.svg);
     background-repeat: no-repeat;
-    background-position: left 154px top 18px;
+    background-position: left 138px top 18px;
+    box-sizing: border-box;
+    padding-left: 45px;
 }
