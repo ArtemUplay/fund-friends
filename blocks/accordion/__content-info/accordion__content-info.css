@@ -1,0 +1,16 @@
+.accordion__content-info {
+  display: flex;
+  flex-direction: column;
+  color: #54A8B6;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 130%;
+  gap: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .accordion__content-info {
+    font-size: 18px;
+    line-height: 80%;
+  }
+}

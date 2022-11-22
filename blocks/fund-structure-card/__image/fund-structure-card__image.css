@@ -1,0 +1,18 @@
+.fund-structure-card__image {
+  width: 100%;
+  border-radius: 18px;
+
+}
+
+@media (max-width: 768px) {
+  .fund-structure-card__image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card__image {
+    aspect-ratio: auto;
+  }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 400px) {
+  .foundation__subtitle_text-overflow {
+    max-height: 165px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
+}
+}

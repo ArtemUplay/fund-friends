@@ -1,0 +1,18 @@
+.alumni-stories-card {
+  max-width: 358px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (min-width: 375px) and (max-width: 766px) {
+  .alumni-stories-card {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .alumni-stories-card:first-of-type {
+    padding-left: 0px;
+  }
+}

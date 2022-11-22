@@ -1,0 +1,7 @@
+.alumni-stories-card__img {
+  height: 216px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -70px;
+  z-index: 1;
+}

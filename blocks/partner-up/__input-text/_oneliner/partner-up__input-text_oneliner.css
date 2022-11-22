@@ -1,0 +1,10 @@
+.partner-up__input-text_oneliner {
+  max-width: 648px;
+}
+
+@media screen and (max-width: 767px) {
+  .partner-up__input-text_oneliner {
+    width: 100%;
+    max-width: 327px;
+  }
+}

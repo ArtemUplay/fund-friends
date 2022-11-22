@@ -1,0 +1,11 @@
+.vacancies__title {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 0 8px;
+    color: #ABABAB;
+    border-bottom: 1px solid #E7E7E7;
+}

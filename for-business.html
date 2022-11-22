@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/for-business.css" />
+    <title>Название проекта</title>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <div class="header__burger-menue">
+        <span class="header__burger-line"></span>
+      </div>
+      <img class="logo" src="./images/logo.svg" alt="логотип" />
+      <div class="header__menue-сontainer">
+        <nav class="header__menue">
+          <button class="header__button-close" type="button">
+            <img
+              class="header__close-icon"
+              src="./images/close_dialogue_icon.svg"
+              alt="х"
+            />
+          </button>
+          <a id="fund" class="header__link header__link_fund" href="#">Фонд</a>
+          <a
+            id="programs"
+            class="header__link header__link_fund_programs"
+            href="#"
+            >Программы</a
+          >
+          <a class="header__link" href="#">Для НКО</a>
+          <a class="header__link" href="#">Для бизнеса</a>
+          <a class="header__link" href="#">Блог</a>
+          <a class="header__link" href="#">Партнеры</a>
+          <a class="header__link" href="#">Контакты</a>
+        </nav>
+        <div class="social">
+          <a class="social__link" href="#"
+            ><img class="social__icon" src="./images/vk.svg" alt="vk"
+          /></a>
+          <a class="social__link" href="#"
+            ><img
+              class="social__icon"
+              src="./images/telegram.svg"
+              alt="telegram"
+          /></a>
+        </div>
+        <ul class="lang-box">
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link lang-box__lang-link_active" href="#"
+              >Ру</a
+            >
+          </li>
+          <li class="lang-box__link">
+            <a class="lang-box__lang-link" href="#">En</a>
+          </li>
+        </ul>
+      </div>
+      <button class="header__button" type="button">Помочь фонду</button>
+
+      <!--                                        2 burger screen                        -->
+
+      <nav class="header__fund-about">
+        <button id="buttonAbout" class="header__button-arrow" type="button">
+          <img
+            class="header__arrow"
+            src="./images/Arrow_left.svg"
+            alt="arrow"
+          />
+        </button>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">О фонде "Друзья"</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#">История фонда,</a>
+            <a class="header__sublink-sub" href="#">Миссия</a>
+          </div>
+        </article>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">Структура фонда</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#">Экспертный совет,</a>
+            <a class="header__sublink-sub" href="#">Попечительский совет,</a>
+            <a class="header__sublink-sub" href="#">Правление,</a>
+            <a class="header__sublink-sub" href="#">Команда</a>
+          </div>
+        </article>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">Документы</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#">Оферта,</a>
+            <a class="header__sublink-sub" href="#">Реквизиты,</a>
+            <a class="header__sublink-sub" href="#">Устав,</a>
+            <a class="header__sublink-sub" href="#">Договор пожертвования</a>
+          </div>
+        </article>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">Отчеты</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#">Аудит,</a>
+            <a class="header__sublink-sub" href="#">Годовой отчёт</a>
+          </div>
+        </article>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">FAQ</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#"
+              >Ответы на часто задаваемые вопросы</a
+            >
+          </div>
+        </article>
+        <article class="header__desctop-menue-item">
+          <h2 class="header__sublinks-title">
+            <a class="header__sublink-item" href="#">СМИ о нас</a>
+          </h2>
+          <div class="header__sublinks">
+            <a class="header__sublink-sub" href="#"
+              >Что пишут о нас в сети интернет</a
+            >
+          </div>
+        </article>
+      </nav>
+
+      <!--                          3 burger screen                                         -->
+      <div class="programs header header_programs">
+        <button id="buttonPrograms" class="header__button-arrow" type="button">
+          <img
+            class="header__arrow"
+            src="./images/Arrow_left.svg"
+            alt="arrow"
+          />
+        </button>
+        <div
+          class="programs__item programs__item_procharity header_programs-positioning"
+        >
+          <div class="programs__item-inner">
+            <div class="programs__item-content">
+              <div class="programs__logo-box header_programs-padding">
+                <img src="./images/procharitylogo.svg" alt="Лого procharity" />
+                Программа
+              </div>
+              <h3 class="programs__item-title">ProCharity</h3>
+              <p class="programs__item-text">
+                Скорая интеллектуальная помощь для благотворительных фондов
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="programs__item programs__item_school programs__item_align_right header_programs-positioning"
+        >
+          <div class="programs__item-inner programs__item-inner_align_end">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img
+                  src="./images/moscowlogo.svg"
+                  alt="Лого Московской переподготовки НКО "
+                />
+                Программа
+              </div>
+              <h3 class="programs__item-title">
+                Московская школа профессиональной филантропии
+              </h3>
+              <p class="programs__item-text">
+                Повышение квалификации и профессионализма сотрудников НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="programs__item programs__item_team header_programs-positioning"
+        >
+          <div class="programs__item-inner">
+            <div class="programs__item-content">
+              <div class="programs__logo-box">
+                <img src="./images/professionallogo.svg" alt="профессионалы" />
+                Программа
+              </div>
+              <h3 class="programs__item-title">Команда профессионалов</h3>
+              <p class="programs__item-text">
+                Стратегическое развитие и менторская поддержка социальных
+                проектов и НКО
+              </p>
+              <a class="programs__about-link" href="#">О программе</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="menue-program">
+        <article class="menue-program__item">
+          <div class="menue-program__item-box">
+            <img
+              class="menue-program__logo"
+              src="./images/menue_logo_procharity.svg"
+              alt="procharity"
+            />
+            <div class="menue-program__text-container">
+              <a class="menue-program__link" href="#">
+                <h3
+                  class="menue-program__item-title menue-program__item-title_margin"
+                >
+                  ProCharity
+                </h3>
+              </a>
+              <p class="menue-program__item-text">
+                Скорая интеллектуальная помощь для благотворительных фондов
+              </p>
+            </div>
+          </div>
+          <div class="menue-program__item-box">
+            <img
+              class="menue-program__logo"
+              src="./images/moscowlogo.svg"
+              alt="школа филантропии"
+            />
+            <div class="menue-program__text-container">
+              <a class="menue-program__link" href="#">
+                <h3 class="menue-program__item-title">
+                  Московская школа профессиональной филантропии
+                </h3>
+              </a>
+              <p class="menue-program__item-text">
+                Повышение квалификации и профессионализма сотрудников НКО
+              </p>
+            </div>
+          </div>
+          <div class="menue-program__item-box">
+            <img
+              class="menue-program__logo"
+              src="./images/professionallogo.svg"
+              alt="команда профессионалов"
+            />
+            <div class="menue-program__text-container">
+              <a class="menue-program__link" href="#">
+                <h3
+                  class="menue-program__item-title menue-program__positioning"
+                >
+                  Команда профессионалов
+                </h3>
+              </a>
+              <p class="menue-program__item-text">
+                Стратегическое развитие и менторская поддержка социальных
+                проектов и НКО
+              </p>
+            </div>
+          </div>
+      </article>
+    </nav>
+  </header>
+  <!-- Основной контент -->
+  <main class="content">
+    <h2 class="section-title section-title_padding section-title_font">Наши проекты</h2>
+    <section class="slides-foundation slides-foundation_section-padding">
+      <div class="slider slider__foundation" data-slider data-autoplay="true" data-interval="10000">
+        <div class="slider__container">
+          <div class="slider__items">
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__first-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Яндекс и «Друзья» <span class="foundation__title_span">запустили</span> поддержку НКО
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_font">
+                  В 2020 году фонд «Друзья» стал постоянным инфраструктурным партнером социального проекта «Помощь
+                  рядом» компании Яндекс, верифицируя заявки от НКО и обеспечивая им доступ к бесплатным сервисам
+                  компании для НКО, а также оказывая консалтинг по специальным запросам компании в области
+                  благотворительности.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__second-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Lamoda и Фонд «Друзья» <span class="foundation__title_span">провели</span> благотворительный флешмоб
+                  #Друзьяladoma
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  В 2020 году фонд “Друзья” совместно с компанией lamoda провели флешмоб с участием российских звезд, в
+                  котором призвали всех жителей оставаться дома и соблюдать режим самоизоляции. Проект #друзьяladoma
+                  является примером ситуативной коллаборации бизнеса и НКО, которые в трудный момент объединили усилия
+                  для реализации важной социальной
+                  миссии.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation">
+              <div class="foundation foundation__third-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Благотворительный <span class="foundation__title_span">теннисный турнир</span> Bosco Friends Open
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  Фонд «Друзья» и компания Bosco di Ciliegi ежегодно проводит
+                  благотворительный теннисный турнир с участием звезд российского тенниса, олимпийских чемпионов и
+                  известных представителей бизнеса и медиаиндустрии. Благодаря поддержке Bosco фонд «Друзья»
+                  привлекает от одного до восьми миллионов рублей на развитие благотворительности.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation foundation__subtitle_text-overflow">
+              <div class="foundation foundation__fourth-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Запуск платформы ProCharity <span class="foundation__title_span">при поддержке</span> Mastercard
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  В 2017 году фонд «Друзья» запустил платформу интеллектуального
+                  волонтерства ProCharity при поддержке компании Mastercard, которая выступила генеральным партнером
+                  проекта и выделила финансирование на разработку сайта и дальнейшую реализацию проекта до конца 2021
+                  года.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item slider__item_foundation foundation__subtitle_text-overflow foundation__subtitle_font">
+              <div class="foundation foundation__fifth-item foundation_background-image">
+                <h2 class="foundation__title foundation__title_font">
+                  Развитие корпоративного волонтерства <span class="foundation__title_span">на базе платформы</span>
+                  ProCharity
+                </h2>
+                <p class="foundation__subtitle foundation__subtitle_text-overflow foundation__subtitle_font">
+                  С 2019 года платформа ProCharity служит онлайн-площадкой для
+                  эффективного внедрения интеллектуального волонтерства в корпоративную культуру, программы КСО, HR и
+                  внутренних
+                  коммуникациях в бизнес-компаниях. Партнерами проекта уже стали Альфа-банк, Сибур, Ростелеком,
+                  Coca-Cola, Билайн, X5 Group, McKinsey и другие международные компании.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="slider__control" data-slide="prev">
+          <span class="sr-only">Go Left</span>
+        </button>
+        <button class="slider__control" data-slide="next">
+          <span class="sr-only">Go Right</span>
+        </button>
+        <ol class="slider__indicators slider__indicator_position">
+          <li class="slider__indicator slider__indicator_foundation " data-slide-to="0">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="1">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="2">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="3">
+          </li>
+          <li class="slider__indicator slider__indicator_foundation" data-slide-to="4">
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- Подписка на рассылку -->
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail">
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section>
+  </main>
+    </header>
+    <main class="content">
+      <section class="partner-up">
+        <h2 class="section-title section-title_form">Стать партнёром</h2>
+        <p class="partner-up__subtitle">
+          Если вы&nbsp;хотите обсудить с&nbsp;командой фонда идеи
+          по&nbsp;сотрудничеству в&nbsp;области социальной ответственности или
+          поддержку вашей инициативы, напишите нам. Мы&nbsp;ответим
+          в&nbsp;течение дня
+        </p>
+        <form class="partner-up__form" name="partner-up">
+          <div class="partner-up__form-wrapper">
+            <input
+              type="text"
+              class="partner-up__input-text"
+              required
+              placeholder="Ваше Имя"
+              name="name"
+            />
+            <input
+              type="email"
+              class="partner-up__input-text"
+              required
+              placeholder="E-mail"
+              name="email"
+            />
+          </div>
+          <input
+            type="organization"
+            class="partner-up__input-text partner-up__input-text_oneliner"
+            required
+            placeholder="Организация"
+            name="organization"
+          />
+          <textarea
+            name="partner-up__input-message"
+            id=""
+            cols="30"
+            rows="10"
+            class="partner-up__input-message"
+            placeholder="Сообщение"
+          ></textarea>
+          <label class="partner-up__input-checkbox-label"
+            ><input
+              type="checkbox"
+              class="partner-up__input-checkbox"
+              required
+              name="checkbox"
+            /><span
+              >Я согласен c
+              <a href="/#" class="partner-up__input-link"
+                >пользовательским соглашением</a
+              ></span
+            ></label
+          >
+          <button type="submit" class="partner-up__input-button">
+            Отправить
+          </button>
+        </form>
+      </section>
+      <section class="subscribe" aria-label="subscription">
+        <div class="subscribe__wrapper">
+          <p class="subscribe__title">
+            Подпишитесь на&nbsp;новостную рассылку программы
+          </p>
+          <p class="subscribe__subtitle">
+            и получайте первыми наши новости и приглашения на семинары/вебинары
+          </p>
+        </div>
+        <label>
+          <input
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            class="subscribe__email"
+            placeholder="Введите ваш e-mail"
+          />
+        </label>
+        <button type="submit" class="subscribe__btn">Подписаться</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <img class="footer__logo" src="./images/footer_logo.svg" alt="logo" />
+        <nav class="footer__menue">
+          <ul class="footer__menue-items">
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Фонд</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Программы</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Для НКО</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Для бизнеса</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Блог</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Партнеры</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link" href="#">Контакты</a>
+            </li>
+            <li class="footer__menue-item">
+              <a class="footer__link footer__link_transform" href="#"
+                >Помочь фонду</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__contact-container">
+        <p class="footer__contact">
+          Написать нам:&emsp;<a
+            class="footer__contact-details"
+            href="mailto:friends@friends-foundation.com"
+            >friends@friends-foundation.com</a
+          >
+        </p>
+        <p class="footer__contact">
+          Позвонить нам:&emsp;<a
+            class="footer__contact-details"
+            href="tel:+79772770717"
+            >+7 977 277-07-17</a
+          >
+        </p>
+        <div class="footer__social">
+          <p class="footer__contact">Мы в соцсетях:</p>
+          <a class="footer__social-link" href="#"
+            ><img
+              class="footer__social-icon"
+              src="./images/footer_vk.svg"
+              alt="vk"
+          /></a>
+          <a class="footer__social-link" href="#"
+            ><img
+              class="footer__social-icon"
+              src="./images/footer_telegram.svg"
+              alt="telegram"
+          /></a>
+        </div>
+      </div>
+      <div class="footer__variety">
+        <div class="footer__wrapper">
+          <img
+            class="footer__adultsonly"
+            src="./images/footer_adult.svg"
+            alt="adultsonly"
+          />
+          <p class="footer__copyright">
+            © 2021 Фонд «Друзья» Все права защищены.
+          </p>
+        </div>
+        <p class="footer__otherrights">
+          Исключительные права на фото- и иные материалы принадлежат авторам.
+          Любое размещение материалов на сторонних ресурсах необходимо
+          согласовывать с правообладателями.
+        </p>
+        <img
+          class="footer__registered"
+          src="./images/footer_registered.svg"
+          alt="duns registered"
+        />
+      </div>
+    </footer>
+    <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/radioButtonStyle.js" defer></script>
+  </body>
+</html>
+      <p class="footer__otherrights">
+        Исключительные права на фото- и иные материалы принадлежат авторам.
+        Любое размещение материалов на сторонних ресурсах необходимо
+        согласовывать с правообладателями.
+      </p>
+      <img class="footer__registered" src="./images/footer_registered.svg" alt="duns registered">
+    </div>
+  </footer>
+  <script src="./scripts/index.js" defer></script>
+  <script src="./vendor/slider/slider.js"></script>
+</body>
+
+</html>

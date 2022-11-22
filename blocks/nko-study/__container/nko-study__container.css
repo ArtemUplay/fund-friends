@@ -1,0 +1,19 @@
+.nko-study__container {
+    width: 100%;
+    padding: 56px 24px 59px;
+    box-sizing: border-box;
+    background-color: #528CBE;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 504px));
+    justify-content: center;
+    column-gap: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    .nko-study__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}

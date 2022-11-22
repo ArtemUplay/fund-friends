@@ -1,0 +1,14 @@
+.accordion__title-content {
+  margin: 0;
+  padding-bottom: 32px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  .accordion__title-content {
+    font-size: 14px;
+    line-height: 80%;
+  }
+}
