@@ -72,7 +72,7 @@
 @import url("../blocks/accordion/__item/accordion__item.css");
 @import url("../blocks/accordion/__content/accordion__content.css");
 @import url("../blocks/accordion/__title-info/accordion__title-info.css");
-
+@import url("../blocks/accordion/__title-info/_type/accordion__title-info_type_link.css");
 
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
