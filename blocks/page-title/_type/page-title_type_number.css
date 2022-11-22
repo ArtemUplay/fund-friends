@@ -1,0 +1,17 @@
+.page-title_type_number {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #ABABAB;
+    padding-left: 16px;
+    vertical-align: text-top;
+}
+
+@media screen and (max-width: 736px) {
+    .page-title_type_number {
+        display: none;
+    }
+  }

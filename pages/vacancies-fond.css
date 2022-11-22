@@ -63,7 +63,7 @@
 /*--Основное содержание страницы--*/
 @import url("../blocks/content/content.css");
 @import url("../blocks/page-title/page-title.css");
-
+@import url("../blocks/page-title/_type/page-title_type_number.css");
 
 @import url("../blocks/vacancies/vacancies.css");
 @import url("../blocks/vacancies/__title/vacancies__title.css");
