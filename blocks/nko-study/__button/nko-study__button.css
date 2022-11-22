@@ -17,4 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../../../images/arrow-up.svg);
+    background-repeat: no-repeat;
+    background-position: left 154px top 18px;
 }
