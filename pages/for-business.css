@@ -85,14 +85,18 @@
 @import url("../vendor/slider/slider.css");
 @import url("../vendor/slider/styles.css");
 /* Модификаторы для слайдера и заголовка секции*/
-@import url("../blocks/slides-foundation_section-padding/slides-foundation_section-padding.css");
-@import url("../blocks/slider__indicator_position/slider__indicator_position.css");
-@import url("../blocks/foundation/__subtitle/_text-overflow/foundation__subtitle_text-overflow.css");
-@import url("../blocks/foundation/_background-image/foundation_background-image.css");
-@import url("../blocks/foundation/__subtitle/_font/foundation__subtitle_font.css");
-@import url("../blocks/foundation/__title/_font/foundation__title_font.css");
-@import url("../blocks/section-title/_font/section-title_font.css");
-@import url("../blocks/section-title/_padding/section-title_padding.css");
+@import url(../blocks/our-projects/our-projects.css);
+@import url(../blocks/section-title/_font/section-title_font_size.css);
+@import url(../vendor/itc-slider/itc-slider.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_yandex.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_lamoda.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_bosco.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_mastercard.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_procharity.css);
+@import url(../blocks/itc-slider/__title/itc-slider__title.css);
+@import url(../blocks/itc-slider/__text/itc-slider__text.css);
+@import url(../blocks/itc-slider/__title/_font-style/itc-slider__title_font-style_italic.css);
+@import url(../blocks/itc-slider/_position/itc-slider_position_center.css);
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");

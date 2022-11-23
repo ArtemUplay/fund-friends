@@ -1,0 +1,11 @@
+.itc-slider__item_background-picture_mastercard {
+  justify-content: start;
+  color: white;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+  aspect-ratio: 1/0.5821;
+  background-size: cover;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../../images/procharity-mastercard.jpg);
+}
