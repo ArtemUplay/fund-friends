@@ -3,3 +3,11 @@
   font-size: 44px;
   line-height: 50px;
 }
+
+@media (max-width: 767px) {
+  .section-title_font_size {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 858px) {
+  .itc-slider__btn_hidden {
+    display: none;
+  }
+}

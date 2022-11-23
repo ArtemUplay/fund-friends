@@ -6,6 +6,5 @@
   max-width: 100%;
   flex: 0 0 100%;
   background-image: url(../../../../images/nko-support.jpg);
-  aspect-ratio: 1/0.5821;
-  background-size: cover;
+  background-position-x: 50%;
 }
