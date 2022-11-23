@@ -89,11 +89,11 @@
 
 /* модификаторы слайдера для блока НКО */
 @import url("../blocks/nko-study/__item/nko-study__item.css");
-@import url("../blocks/nko-study/__first-item/nko-study__first-item.css");
-@import url("../blocks/nko-study/__second-item/nko-study__second-item.css");
-@import url("../blocks/nko-study/__third-item/nko-study__third-item.css");
-@import url("../blocks/nko-study/__fourth-item/nko-study__fourth-item.css");
-@import url("../blocks/nko-study/__fifth-item/nko-study__fifth-item.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_first.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_second.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_third.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fourth.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fifth.css");
 @import url("../blocks/nko-study/__slide-number/nko-study__slide-number.css");
 @import url("../blocks/nko-study/__slide-title/nko-study__slide-title.css");
 
