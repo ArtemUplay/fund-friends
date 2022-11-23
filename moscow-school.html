@@ -1,488 +1,406 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/moscow-school.css" />
-    <title>Название проекта</title>
-  </head>
 
-  <body class="page">
-    <header class="header">
-      <div class="header__burger-menue">
-        <span class="header__burger-line"></span>
-      </div>
-      <img class="logo" src="./images/logo.svg" alt="логотип" />
-      <div class="header__menue-сontainer">
-        <nav class="header__menue">
-          <button class="header__button-close" type="button">
-            <img
-              class="header__close-icon"
-              src="./images/close_dialogue_icon.svg"
-              alt="х"
-            />
-          </button>
-          <a id="fund" class="header__link header__link_fund" href="#">Фонд</a>
-          <a
-            id="programs"
-            class="header__link header__link_fund_programs"
-            href="#"
-            >Программы</a
-          >
-          <a class="header__link" href="#">Для НКО</a>
-          <a class="header__link" href="#">Для бизнеса</a>
-          <a class="header__link" href="#">Блог</a>
-          <a class="header__link" href="#">Партнеры</a>
-          <a class="header__link" href="#">Контакты</a>
-        </nav>
-        <div class="social">
-          <a class="social__link" href="#"
-            ><img class="social__icon" src="./images/vk.svg" alt="vk"
-          /></a>
-          <a class="social__link" href="#"
-            ><img
-              class="social__icon"
-              src="./images/telegram.svg"
-              alt="telegram"
-          /></a>
-        </div>
-        <ul class="lang-box">
-          <li class="lang-box__link">
-            <a class="lang-box__lang-link lang-box__lang-link_active" href="#"
-              >Ру</a
-            >
-          </li>
-          <li class="lang-box__link">
-            <a class="lang-box__lang-link" href="#">En</a>
-          </li>
-        </ul>
-      </div>
-      <button class="header__button" type="button">Помочь фонду</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="pages/moscow-school.css" />
+  <title>Название проекта</title>
+</head>
 
-      <!--                                        2 burger screen                        -->
-
-      <nav class="header__fund-about">
-        <button id="buttonAbout" class="header__button-arrow" type="button">
-          <img
-            class="header__arrow"
-            src="./images/Arrow_left.svg"
-            alt="arrow"
-          />
+<body class="page">
+  <header class="header">
+    <div class="header__burger-menue">
+      <span class="header__burger-line"></span>
+    </div>
+    <img class="logo" src="./images/logo.svg" alt="логотип фонда друзья" />
+    <div class="header__menue-сontainer">
+      <nav class="header__menue">
+        <button class="header__button-close" type="button">
+          <img class="header__close-icon" src="./images/close_dialogue_icon.svg" alt="кнопка закрытия" />
         </button>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">О фонде "Друзья"</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#">История фонда,</a>
-            <a class="header__sublink-sub" href="#">Миссия</a>
-          </div>
-        </article>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">Структура фонда</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#">Экспертный совет,</a>
-            <a class="header__sublink-sub" href="#">Попечительский совет,</a>
-            <a class="header__sublink-sub" href="#">Правление,</a>
-            <a class="header__sublink-sub" href="#">Команда</a>
-          </div>
-        </article>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">Документы</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#">Оферта,</a>
-            <a class="header__sublink-sub" href="#">Реквизиты,</a>
-            <a class="header__sublink-sub" href="#">Устав,</a>
-            <a class="header__sublink-sub" href="#">Договор пожертвования</a>
-          </div>
-        </article>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">Отчеты</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#">Аудит,</a>
-            <a class="header__sublink-sub" href="#">Годовой отчёт</a>
-          </div>
-        </article>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">FAQ</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#"
-              >Ответы на часто задаваемые вопросы</a
-            >
-          </div>
-        </article>
-        <article class="header__desctop-menue-item">
-          <h2 class="header__sublinks-title">
-            <a class="header__sublink-item" href="#">СМИ о нас</a>
-          </h2>
-          <div class="header__sublinks">
-            <a class="header__sublink-sub" href="#"
-              >Что пишут о нас в сети интернет</a
-            >
-          </div>
-        </article>
+        <a id="fund" class="header__link header__link_fund" href="#">Фонд</a>
+        <a id="programs" class="header__link header__link_fund_programs" href="#">Программы</a>
+        <a class="header__link" href="#">Для НКО</a>
+        <a class="header__link" href="#">Для бизнеса</a>
+        <a class="header__link" href="#">Блог</a>
+        <a class="header__link" href="#">Партнеры</a>
+        <a class="header__link" href="#">Контакты</a>
       </nav>
+      <div class="social">
+        <a class="social__link" href="#"><img class="social__icon" src="./images/vk.svg" alt="логотип ВКонтакте" /></a>
+        <a class="social__link" href="#"><img class="social__icon" src="./images/telegram.svg" alt="Логотип Телеграмм" /></a>
+      </div>
+      <ul class="lang-box">
+        <li class="lang-box__link">
+          <a class="lang-box__lang-link lang-box__lang-link_active" href="#">Ру</a>
+        </li>
+        <li class="lang-box__link">
+          <a class="lang-box__lang-link" href="#">En</a>
+        </li>
+      </ul>
+    </div>
+    <button class="header__button" type="button">Помочь фонду</button>
 
-      <!--                          3 burger screen                                         -->
-      <div class="programs header header_programs">
-        <button id="buttonPrograms" class="header__button-arrow" type="button">
-          <img
-            class="header__arrow"
-            src="./images/Arrow_left.svg"
-            alt="arrow"
-          />
-        </button>
-        <div
-          class="programs__item programs__item_procharity header_programs-positioning"
-        >
-          <div class="programs__item-inner">
-            <div class="programs__item-content">
-              <div class="programs__logo-box header_programs-padding">
-                <img src="./images/procharitylogo.svg" alt="Лого procharity" />
-                Программа
-              </div>
-              <h3 class="programs__item-title">ProCharity</h3>
-              <p class="programs__item-text">
-                Скорая интеллектуальная помощь для благотворительных фондов
-              </p>
-              <a class="programs__about-link" href="#">О программе</a>
+    <!--                                        2 burger screen                        -->
+
+    <nav class="header__fund-about">
+      <button id="buttonAbout" class="header__button-arrow" type="button">
+        <img class="header__arrow" src="./images/Arrow_left.svg" alt="Стрелка влево" />
+      </button>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">О фонде "Друзья"</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">История фонда,</a>
+          <a class="header__sublink-sub" href="#">Миссия</a>
+        </div>
+      </article>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">Структура фонда</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Экспертный совет,</a>
+          <a class="header__sublink-sub" href="#">Попечительский совет,</a>
+          <a class="header__sublink-sub" href="#">Правление,</a>
+          <a class="header__sublink-sub" href="#">Команда</a>
+        </div>
+      </article>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">Документы</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Оферта,</a>
+          <a class="header__sublink-sub" href="#">Реквизиты,</a>
+          <a class="header__sublink-sub" href="#">Устав,</a>
+          <a class="header__sublink-sub" href="#">Договор пожертвования</a>
+        </div>
+      </article>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">Отчеты</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Аудит,</a>
+          <a class="header__sublink-sub" href="#">Годовой отчёт</a>
+        </div>
+      </article>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">FAQ</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Ответы на часто задаваемые вопросы</a>
+        </div>
+      </article>
+      <article class="header__desctop-menue-item">
+        <h2 class="header__sublinks-title">
+          <a class="header__sublink-item" href="#">СМИ о нас</a>
+        </h2>
+        <div class="header__sublinks">
+          <a class="header__sublink-sub" href="#">Что пишут о нас в сети интернет</a>
+        </div>
+      </article>
+    </nav>
+
+    <!--                          3 burger screen                                         -->
+    <div class="programs header header_programs">
+      <button id="buttonPrograms" class="header__button-arrow" type="button">
+        <img class="header__arrow" src="./images/Arrow_left.svg" alt="Стрелка влево" />
+      </button>
+      <div class="programs__item programs__item_procharity header_programs-positioning">
+        <div class="programs__item-inner">
+          <div class="programs__item-content">
+            <div class="programs__logo-box header_programs-padding">
+              <img src="./images/procharitylogo.svg" alt="Логотип платформы для волонтёров procharity" />
+              Программа
             </div>
+            <h3 class="programs__item-title">ProCharity</h3>
+            <p class="programs__item-text">
+              Скорая интеллектуальная помощь для благотворительных фондов
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
           </div>
         </div>
-        <div
-          class="programs__item programs__item_school programs__item_align_right header_programs-positioning"
-        >
-          <div class="programs__item-inner programs__item-inner_align_end">
-            <div class="programs__item-content">
-              <div class="programs__logo-box">
-                <img
-                  src="./images/moscowlogo.svg"
-                  alt="Лого Московской переподготовки НКО "
-                />
-                Программа
-              </div>
-              <h3 class="programs__item-title">
+      </div>
+      <div class="programs__item programs__item_school programs__item_align_right header_programs-positioning">
+        <div class="programs__item-inner programs__item-inner_align_end">
+          <div class="programs__item-content">
+            <div class="programs__logo-box">
+              <img src="./images/moscowlogo.svg" alt="Логотип Московской школы профессиональной филантропии" />
+              Программа
+            </div>
+            <h3 class="programs__item-title">
+              Московская школа профессиональной филантропии
+            </h3>
+            <p class="programs__item-text">
+              Повышение квалификации и профессионализма сотрудников НКО
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
+          </div>
+        </div>
+      </div>
+      <div class="programs__item programs__item_team header_programs-positioning">
+        <div class="programs__item-inner">
+          <div class="programs__item-content">
+            <div class="programs__logo-box">
+              <img src="./images/professionallogo.svg" alt="Логотип программы команда профессионалов" />
+              Программа
+            </div>
+            <h3 class="programs__item-title">Команда профессионалов</h3>
+            <p class="programs__item-text">
+              Стратегическое развитие и менторская поддержка социальных
+              проектов и НКО
+            </p>
+            <a class="programs__about-link" href="#">О программе</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="menue-program">
+      <article class="menue-program__item">
+        <div class="menue-program__item-box">
+          <img class="menue-program__logo" src="./images/menue_logo_procharity.svg" alt="Логотип платформы для волонтёров procharity" />
+          <div class="menue-program__text-container">
+            <a class="menue-program__link" href="#">
+              <h3 class="menue-program__item-title menue-program__item-title_margin">
+                ProCharity
+              </h3>
+            </a>
+            <p class="menue-program__item-text">
+              Скорая интеллектуальная помощь для благотворительных фондов
+            </p>
+          </div>
+        </div>
+        <div class="menue-program__item-box">
+          <img class="menue-program__logo" src="./images/moscowlogo.svg" alt="Логотип Московской школы профессиональной филантропии" />
+          <div class="menue-program__text-container">
+            <a class="menue-program__link" href="#">
+              <h3 class="menue-program__item-title">
                 Московская школа профессиональной филантропии
               </h3>
-              <p class="programs__item-text">
-                Повышение квалификации и профессионализма сотрудников НКО
-              </p>
-              <a class="programs__about-link" href="#">О программе</a>
-            </div>
+            </a>
+            <p class="menue-program__item-text">
+              Повышение квалификации и профессионализма сотрудников НКО
+            </p>
           </div>
         </div>
-        <div
-          class="programs__item programs__item_team header_programs-positioning"
-        >
-          <div class="programs__item-inner">
-            <div class="programs__item-content">
-              <div class="programs__logo-box">
-                <img src="./images/professionallogo.svg" alt="профессионалы" />
-                Программа
+        <div class="menue-program__item-box">
+          <img class="menue-program__logo" src="./images/professionallogo.svg" alt="Логотип программы команда профессионалов" />
+          <div class="menue-program__text-container">
+            <a class="menue-program__link" href="#">
+              <h3 class="menue-program__item-title menue-program__positioning">
+                Команда профессионалов
+              </h3>
+            </a>
+            <p class="menue-program__item-text">
+              Стратегическое развитие и менторская поддержка социальных
+              проектов и НКО
+            </p>
+          </div>
+        </div>
+      </article>
+    </nav>
+  </header>
+  
+  <main class="content">
+
+    <!-- секция курсы лидеров НКО -->
+    <section class="nko-study">
+      <div class="slides-foundation">
+        <div class="slider slider__nko-study" data-slider data-autoplay="false" data-interval="10000">
+          <div class="slider__container">
+            <div class="slider__items">
+              <div class="slider__item slider__item_foundation">
+                <div class="nko-study__item nko-study__item_number_first">
+                  <p class="nko-study__slide-number">
+                    1/5
+                  </p>
+                  <h2 class="nko-study__slide-title">
+                    Выпуск МШПФ 2019
+                  </h2>
+                </div>
               </div>
-              <h3 class="programs__item-title">Команда профессионалов</h3>
-              <p class="programs__item-text">
-                Стратегическое развитие и менторская поддержка социальных
-                проектов и НКО
-              </p>
-              <a class="programs__about-link" href="#">О программе</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav class="menue-program">
-        <article class="menue-program__item">
-          <div class="menue-program__item-box">
-            <img
-              class="menue-program__logo"
-              src="./images/menue_logo_procharity.svg"
-              alt="procharity"
-            />
-            <div class="menue-program__text-container">
-              <a class="menue-program__link" href="#">
-                <h3
-                  class="menue-program__item-title menue-program__item-title_margin"
-                >
-                  ProCharity
-                </h3>
-              </a>
-              <p class="menue-program__item-text">
-                Скорая интеллектуальная помощь для благотворительных фондов
-              </p>
-            </div>
-          </div>
-          <div class="menue-program__item-box">
-            <img
-              class="menue-program__logo"
-              src="./images/moscowlogo.svg"
-              alt="школа филантропии"
-            />
-            <div class="menue-program__text-container">
-              <a class="menue-program__link" href="#">
-                <h3 class="menue-program__item-title">
-                  Московская школа профессиональной филантропии
-                </h3>
-              </a>
-              <p class="menue-program__item-text">
-                Повышение квалификации и профессионализма сотрудников НКО
-              </p>
-            </div>
-          </div>
-          <div class="menue-program__item-box">
-            <img
-              class="menue-program__logo"
-              src="./images/professionallogo.svg"
-              alt="команда профессионалов"
-            />
-            <div class="menue-program__text-container">
-              <a class="menue-program__link" href="#">
-                <h3
-                  class="menue-program__item-title menue-program__positioning"
-                >
-                  Команда профессионалов
-                </h3>
-              </a>
-              <p class="menue-program__item-text">
-                Стратегическое развитие и менторская поддержка социальных
-                проектов и НКО
-              </p>
-            </div>
-          </div>
-        </article>
-      </nav>
-    </header>
-    <main class="content">
-      <!-- секция курсы лидеров НКО -->
-      <section class="nko-study">
-        <div class="slides-foundation">
-          <div
-            class="slider slider__nko-study"
-            data-slider
-            data-autoplay="false"
-            data-interval="10000"
-          >
-            <div class="slider__container">
-              <div class="slider__items">
-                <div class="slider__item slider__item_foundation">
-                  <div class="nko-study__item nko-study__first-item">
-                    <p class="nko-study__slide-number">1/5</p>
-                    <h2 class="nko-study__slide-title">Выпуск МШПФ 2019</h2>
-                  </div>
+              <div class="slider__item slider__item_foundation">
+                <div class="nko-study__item nko-study__item_number_second">
+                  <p class="nko-study__slide-number">
+                    2/5
+                  </p>
+                  <h2 class="nko-study__slide-title">
+                    Выпуск МШПФ 2019
+                  </h2>
                 </div>
-                <div class="slider__item slider__item_foundation">
-                  <div class="nko-study__item nko-study__second-item">
-                    <p class="nko-study__slide-number">2/5</p>
-                    <h2 class="nko-study__slide-title">Выпуск МШПФ 2019</h2>
-                  </div>
+              </div>
+              <div class="slider__item slider__item_foundation">
+                <div class="nko-study__item nko-study__item_number_third">
+                  <p class="nko-study__slide-number">
+                    3/5
+                  </p>
+                  <h2 class="nko-study__slide-title">
+                    Выпуск МШПФ 2019
+                  </h2>
                 </div>
-                <div class="slider__item slider__item_foundation">
-                  <div class="nko-study__item nko-study__third-item">
-                    <p class="nko-study__slide-number">3/5</p>
-                    <h2 class="nko-study__slide-title">Выпуск МШПФ 2019</h2>
-                  </div>
+              </div>
+              <div class="slider__item slider__item_foundation">
+                <div class="nko-study__item nko-study__item_number_fourth">
+                  <p class="nko-study__slide-number">
+                    4/5
+                  </p>
+                  <h2 class="nko-study__slide-title">
+                    Выпуск МШПФ 2019
+                  </h2>
                 </div>
-                <div class="slider__item slider__item_foundation">
-                  <div class="nko-study__item nko-study__fourth-item">
-                    <p class="nko-study__slide-number">4/5</p>
-                    <h2 class="nko-study__slide-title">Выпуск МШПФ 2019</h2>
-                  </div>
-                </div>
-                <div class="slider__item slider__item_foundation">
-                  <div class="nko-study__item nko-study__fifth-item">
-                    <p class="nko-study__slide-number">5/5</p>
-                    <h2 class="nko-study__slide-title">Выпуск МШПФ 2019</h2>
-                  </div>
+              </div>
+              <div class="slider__item slider__item_foundation">
+                <div class="nko-study__item nko-study__item_number_fifth">
+                  <p class="nko-study__slide-number">
+                    5/5
+                  </p>
+                  <h2 class="nko-study__slide-title">
+                    Выпуск МШПФ 2019
+                  </h2>
                 </div>
               </div>
             </div>
-            <button class="slider__control" data-slide="prev">
-              <span class="sr-only">Go Left</span>
-            </button>
-            <button class="slider__control" data-slide="next">
-              <span class="sr-only">Go Right</span>
-            </button>
           </div>
-        </div>
-        <div class="nko-study__container">
-          <h2 class="nko-study__title">Курс для лидеров НКО</h2>
-          <p class="nko-study__discription">
-            Он состоит из 8 модулей и охватывает все темы – от анализа
-            и стратегического планирования до личного бренда руководителя.
-            Пройти обучение в школе могут как действующие руководители НКО, так
-            и те, кто решил перейти в социальную сферу из бизнеса или
-            государственного управления.
-          </p>
-          <button class="nko-study__button">
-            <span>Подробнее</span>
-            <i class="nko-study__button-arrow"></i>
+          <button class="slider__control" data-slide="prev">
+            <span class="sr-only">Go Left</span>
+          </button>
+          <button class="slider__control" data-slide="next">
+            <span class="sr-only">Go Right</span>
           </button>
         </div>
-      </section>
+      </div>
+      <div class="nko-study__container">
+        <h2 class="nko-study__title">Курс для лидеров НКО</h2>
+        <p class="nko-study__discription">
+          Он состоит из 8 модулей и охватывает все темы – от анализа и стратегического планирования до личного бренда
+          руководителя.
+          Пройти обучение в школе могут как действующие руководители НКО, так и те,
+          кто решил перейти в социальную сферу из бизнеса или государственного управления.
+        </p>
+        <button class="nko-study__button" type="button">
+          Подробнее
+        </button>
+      </div>
+    </section>
 
-      <!-- секция с подпиской -->
-      <section class="subscribe" aria-label="subscription">
-        <div class="subscribe__wrapper">
-          <p class="subscribe__title">
-            Подпишитесь на&nbsp;новостную рассылку программы
-          </p>
-          <p class="subscribe__subtitle">
-            и получайте первыми наши новости и приглашения на семинары/вебинары
-          </p>
-        </div>
-        <label>
-          <input
-            type="email"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            class="subscribe__email"
-            placeholder="Введите ваш e-mail"
-          />
-        </label>
-        <button type="submit" class="subscribe__btn">Подписаться</button>
-      </section>
+    <!-- секция с подпиской -->
+    <section class="subscribe" aria-label="subscription">
+      <div class="subscribe__wrapper">
+        <p class="subscribe__title">
+          Подпишитесь на&nbsp;новостную рассылку программы
+        </p>
+        <p class="subscribe__subtitle">
+          и получайте первыми наши новости и приглашения на семинары/вебинары
+        </p>
+      </div>
+      <label>
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
+          placeholder="Введите ваш e-mail" />
+      </label>
+      <button type="submit" class="subscribe__btn">Подписаться</button>
+    </section>
 
-      <!-- секция истории выпускников -->
-      <section class="alumni-stories">
-        <h2 class="section-title">Истории выпускников</h2>
-        <div class="itc-slider" data-slider="itc-slider">
-          <div class="itc-slider__wrapper">
-            <div class="itc-slider__items">
-              <div class="itc-slider__item">
-                <article class="alumni-stories-card">
-                  <img
-                    src="./images/aleksei-artemiev.svg"
-                    alt="Алексей Артемьев"
-                    class="alumni-stories-card__img"
-                  />
-                  <div class="alumni-stories-card__text-box">
-                    <blockquote class="alumni-stories-card__quote">
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >«Максимальный</span
-                      >
-                      результат
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >в</span
-                      >
-                      сжатые сроки»
-                    </blockquote>
-                    <h3 class="alumni-stories-card__name">Алексей Артемьев</h3>
-                    <p class="alumni-stories-card__description">
-                      Финансист по профессии, Алексей Артемьев пришел в МШПФ,
-                      чтобы разобраться, как устроена благотворительность
-                      изнутри — и уверен, что лучше, чем Школа, места для этого
-                      не найти...
-                    </p>
-                    <a href="#" class="alumni-stories-card__link">Подробнее</a>
-                  </div>
-                </article>
-              </div>
-              <div class="itc-slider__item">
-                <article class="alumni-stories-card">
-                  <img
-                    src="./images/kira-smirnova.svg"
-                    alt="Кира Смирнова"
-                    class="alumni-stories-card__img"
-                  />
-                  <div class="alumni-stories-card__text-box">
-                    <blockquote class="alumni-stories-card__quote">
-                      «В Школу
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >надо приходить за пищей</span
-                      >
-                      для ума
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >и вдохновением»</span
-                      >
-                    </blockquote>
-                    <h3 class="alumni-stories-card__name">Кира Смирнова</h3>
-                    <p class="alumni-stories-card__description">
-                      Свое решение пойти учиться в МШПФ Кира объясняет
-                      стремлением получить системное образование в
-                      благотворительной индустрии. Кира стала лучшим студентом
-                      МШПФ по мнению ...
-                    </p>
-                    <a href="#" class="alumni-stories-card__link">Подробнее</a>
-                  </div>
-                </article>
-              </div>
-              <div class="itc-slider__item">
-                <article class="alumni-stories-card">
-                  <img
-                    src="./images/aleksei-artemiev.svg"
-                    alt="Алексей Артемьев"
-                    class="alumni-stories-card__img"
-                  />
-                  <div class="alumni-stories-card__text-box">
-                    <blockquote class="alumni-stories-card__quote">
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >«Максимальный</span
-                      >
-                      результат
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >в</span
-                      >
-                      сжатые сроки»
-                    </blockquote>
-                    <h3 class="alumni-stories-card__name">Алексей Артемьев</h3>
-                    <p class="alumni-stories-card__description">
-                      Финансист по профессии, Алексей Артемьев пришел в МШПФ,
-                      чтобы разобраться, как устроена благотворительность
-                      изнутри — и уверен, что лучше, чем Школа, места для этого
-                      не найти...
-                    </p>
-                    <a href="#" class="alumni-stories-card__link">Подробнее</a>
-                  </div>
-                </article>
-              </div>
-              <div class="itc-slider__item">
-                <article class="alumni-stories-card">
-                  <img
-                    src="./images/tatiana-chestina.svg"
-                    alt="Татьяна Честина"
-                    class="alumni-stories-card__img"
-                  />
-                  <div class="alumni-stories-card__text-box">
-                    <blockquote class="alumni-stories-card__quote">
-                      «В Школу
-                      <span class="alumni-stories-card__quote_mark-text"
-                        >надо приходить за пищей для ума</span
-                      >
-                      и вдохновением»
-                    </blockquote>
-                    <h3 class="alumni-stories-card__name">Татьяна Честина</h3>
-                    <p class="alumni-stories-card__description">
-                      История Татьяны – это ещё одна история человека из
-                      некоммерческого сектора, которому в какой-то момент
-                      критически важно было пересмотреть свои взгляды на ...
-                    </p>
-                    <a href="#" class="alumni-stories-card__link">Подробнее</a>
-                  </div>
-                </article>
-              </div>
+    <!-- секция истории выпускников -->
+    <section class="alumni-stories">
+      <h2 class="section-title">Истории выпускников</h2>
+      <div class="itc-slider" data-slider="itc-slider">
+        <div class="itc-slider__wrapper">
+          <div class="itc-slider__items">
+            <div class="itc-slider__item">
+              <article class="alumni-stories-card">
+                <img src="./images/aleksei artemiev.svg" alt="Алексей Артемьев" class="alumni-stories-card__img">
+                <div class="alumni-stories-card__text-box">
+                  <blockquote class="alumni-stories-card__quote">
+                    <span class="alumni-stories-card__quote_mark-text">«Максимальный</span> результат <span
+                      class="alumni-stories-card__quote_mark-text">в</span>
+                    сжатые сроки»
+                  </blockquote>
+                  <h3 class="alumni-stories-card__name">Алексей Артемьев</h3>
+                  <p class="alumni-stories-card__description">Финансист по профессии, Алексей Артемьев пришел в МШПФ,
+                    чтобы
+                    разобраться, как устроена благотворительность изнутри — и уверен, что лучше, чем Школа, места для
+                    этого не найти...</p>
+                  <a href="#" class="alumni-stories-card__link">Подробнее</a>
+                </div>
+              </article>
+            </div>
+            <div class="itc-slider__item">
+              <article class="alumni-stories-card">
+                <img src="./images/kira smirnova.svg" alt="Кира Смирнова" class="alumni-stories-card__img">
+                <div class="alumni-stories-card__text-box">
+                  <blockquote class="alumni-stories-card__quote">
+                    «В Школу <span class="alumni-stories-card__quote_mark-text">надо приходить за пищей</span> для ума <span class="alumni-stories-card__quote_mark-text">и вдохновением»</span>
+                  </blockquote>
+                  <h3 class="alumni-stories-card__name">Кира Смирнова</h3>
+                  <p class="alumni-stories-card__description">Свое решение пойти учиться в МШПФ Кира объясняет
+                    стремлением
+                    получить системное образование в благотворительной индустрии. Кира стала лучшим студентом МШПФ по
+                    мнению ...
+                  </p>
+                  <a href="#" class="alumni-stories-card__link">Подробнее</a>
+                </div>
+              </article>
+            </div>
+            <div class="itc-slider__item">
+              <article class="alumni-stories-card">
+                <img src="./images/aleksei artemiev.svg" alt="Алексей Артемьев" class="alumni-stories-card__img">
+                <div class="alumni-stories-card__text-box">
+                  <blockquote class="alumni-stories-card__quote">
+                    <span class="alumni-stories-card__quote_mark-text">«Максимальный</span> результат <span
+                      class="alumni-stories-card__quote_mark-text">в</span>
+                    сжатые сроки»
+                  </blockquote>
+                  <h3 class="alumni-stories-card__name">Алексей Артемьев</h3>
+                  <p class="alumni-stories-card__description">Финансист по профессии, Алексей Артемьев пришел в МШПФ,
+                    чтобы
+                    разобраться, как устроена благотворительность изнутри — и уверен, что лучше, чем Школа, места для
+                    этого не найти...</p>
+                  <a href="#" class="alumni-stories-card__link">Подробнее</a>
+                </div>
+              </article>
+            </div>
+            <div class="itc-slider__item">
+              <article class="alumni-stories-card">
+                <img src="./images/tatiana chestina.svg" alt="Татьяна Честина" class="alumni-stories-card__img">
+                <div class="alumni-stories-card__text-box">
+                  <blockquote class="alumni-stories-card__quote">
+                    «В Школу <span class="alumni-stories-card__quote_mark-text">надо приходить за пищей для ума</span> 
+                    и вдохновением»
+                  </blockquote>
+                  <h3 class="alumni-stories-card__name">Татьяна Честина</h3>
+                  <p class="alumni-stories-card__description">История Татьяны – это ещё одна история человека из
+                    некоммерческого
+                    сектора, которому в какой-то момент критически важно было пересмотреть свои взгляды на ...</p>
+                  <a href="#" class="alumni-stories-card__link">Подробнее</a>
+                </div>
+              </article>
             </div>
           </div>
-          <!-- Кнопки для перехода к предыдущему и следующему слайду -->
-          <button class="itc-slider__btn itc-slider__btn_prev"></button>
-          <button class="itc-slider__btn itc-slider__btn_next"></button>
-          <ol class="itc-slider__indicators">
-            <li class="itc-slider__indicator" data-slide-to="0"></li>
-            <li class="itc-slider__indicator" data-slide-to="1"></li>
-            <li class="itc-slider__indicator" data-slide-to="2"></li>
-            <li class="itc-slider__indicator" data-slide-to="3"></li>
-          </ol>
         </div>
-      </section>
+        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+        <button class="itc-slider__btn itc-slider__btn_prev"></button>
+        <button class="itc-slider__btn itc-slider__btn_next"></button>
+        <ol class="itc-slider__indicators ">
+          <li class="itc-slider__indicator" data-slide-to="0">
+          </li>
+          <li class="itc-slider__indicator" data-slide-to="1">
+          </li>
+          <li class="itc-slider__indicator" data-slide-to="2">
+          </li>
+          <li class="itc-slider__indicator" data-slide-to="3">
+          </li>
+        </ol>
+      </div>
+    </section>
 
-      <!-- секция полезное о школе -->
-      <h2 class="page-title page-title_useful-aboutSchool">Полезное о школе</h2>
+    <!-- секция полезное о школе -->
+    <h2 class="page-title page-title_useful-aboutSchool">Полезное о школе</h2>
 
       <section class="faq faq_useful-aboutSchool">
         <ul class="accordion">
@@ -618,7 +536,7 @@
         </ul>
       </section>
 
-      <!-- секция другие программы -->
+    <!-- секция другие программы -->
       <section class="other-programms">
         <div class="other-programms__item other-programms__item_laptop-urgant">
           <div class="other-programms__head">
@@ -648,108 +566,84 @@
           </div>
           <h3 class="other-programms__title">Команда профессионалов</h3>
           <p class="other-programms__info">
-            Повышение квалификации и профессионализма сотрудников НКО
+            Повышение квалификации и профессионализма сотрудников НКО
           </p>
           <a href="#" class="other-programms__about-programm">О программе</a>
         </div>
       </section>
-    </main>
+  </main>
 
-    <!-- подвал -->
-    <footer class="footer">
-      <div class="footer__container">
-        <img class="footer__logo" src="./images/footer_logo.svg" alt="logo" />
-        <nav class="footer__menue">
-          <ul class="footer__menue-items">
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Фонд</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Программы</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Для НКО</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Для бизнеса</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Блог</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Партнеры</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link" href="#">Контакты</a>
-            </li>
-            <li class="footer__menue-item">
-              <a class="footer__link footer__link_transform" href="#"
-                >Помочь фонду</a
-              >
-            </li>
-          </ul>
-        </nav>
+  <!-- подвал -->
+  <footer class="footer">
+    <div class="footer__container">
+      <img class="footer__logo" src="./images/footer_logo.svg" alt="логотип фонда друзья" />
+      <nav class="footer__menue">
+        <ul class="footer__menue-items">
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Фонд</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Программы</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Для НКО</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Для бизнеса</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Блог</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Партнеры</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link" href="#">Контакты</a>
+          </li>
+          <li class="footer__menue-item">
+            <a class="footer__link footer__link_transform" href="#">Помочь фонду</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__contact-container">
+      <p class="footer__contact">
+        Написать нам:&emsp;<a class="footer__contact-details"
+          href="mailto:friends@friends-foundation.com">friends@friends-foundation.com</a>
+      </p>
+      <p class="footer__contact">
+        Позвонить нам:&emsp;<a class="footer__contact-details" href="tel:+79772770717">+7 977 277-07-17</a>
+      </p>
+      <div class="footer__social">
+        <p class="footer__contact">Мы в соцсетях:</p>
+        <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/footer_vk.svg"
+            alt="логотип ВКонтакте" /></a>
+        <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/footer_telegram.svg"
+            alt="логотип Телеграмм" /></a>
       </div>
-      <div class="footer__contact-container">
-        <p class="footer__contact">
-          Написать нам:&emsp;<a
-            class="footer__contact-details"
-            href="mailto:friends@friends-foundation.com"
-            >friends@friends-foundation.com</a
-          >
+    </div>
+    <div class="footer__variety">
+      <div class="footer__wrapper">
+        <img class="footer__adultsonly" src="./images/footer_adult.svg" alt="логотип возрастного ограничения, для лиц старше 18 лет" />
+        <p class="footer__copyright">
+          © 2021 Фонд «Друзья» Все права защищены.
         </p>
-        <p class="footer__contact">
-          Позвонить нам:&emsp;<a
-            class="footer__contact-details"
-            href="tel:+79772770717"
-            >+7 977 277-07-17</a
-          >
-        </p>
-        <div class="footer__social">
-          <p class="footer__contact">Мы в соцсетях:</p>
-          <a class="footer__social-link" href="#"
-            ><img
-              class="footer__social-icon"
-              src="./images/footer_vk.svg"
-              alt="vk"
-          /></a>
-          <a class="footer__social-link" href="#"
-            ><img
-              class="footer__social-icon"
-              src="./images/footer_telegram.svg"
-              alt="telegram"
-          /></a>
-        </div>
       </div>
-      <div class="footer__variety">
-        <div class="footer__wrapper">
-          <img
-            class="footer__adultsonly"
-            src="./images/footer_adult.svg"
-            alt="adultsonly"
-          />
-          <p class="footer__copyright">
-            © 2021 Фонд «Друзья» Все права защищены.
-          </p>
-        </div>
-        <p class="footer__otherrights">
-          Исключительные права на фото- и иные материалы принадлежат авторам.
-          Любое размещение материалов на сторонних ресурсах необходимо
-          согласовывать с правообладателями.
-        </p>
-        <img
-          class="footer__registered"
-          src="./images/footer_registered.svg"
-          alt="duns registered"
-        />
-      </div>
-    </footer>
+      <p class="footer__otherrights">
+        Исключительные права на фото- и иные материалы принадлежат авторам.
+        Любое размещение материалов на сторонних ресурсах необходимо
+        согласовывать с правообладателями.
+      </p>
+      <img class="footer__registered" src="./images/footer_registered.svg" alt="duns registered" />
+    </div>
+  </footer>
 
-    <!-- скрипты -->
-    <script src="./scripts/index.js" defer></script>
-    <script src="./scripts/radioButtonStyle.js" defer></script>
-    <script src="./scripts/accordion.js"></script>
-    <script src="./vendor/slider/slider.js"></script>
-    <script src="./vendor/itc-slider/itc-slider.js"></script>
-  </body>
+  <!-- скрипты -->
+  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/radioButtonStyle.js" defer></script>
+  <script src="./scripts/accordion.js"></script>
+  <script src="./vendor/slider/slider.js"></script>
+  <script src="./vendor/itc-slider/itc-slider.js"></script>
+</body>
+
 </html>
