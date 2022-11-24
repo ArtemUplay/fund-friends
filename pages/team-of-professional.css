@@ -92,14 +92,6 @@
 @import url("../blocks/other-programms/__info/other-programms__info.css");
 @import url("../blocks/other-programms/__about-programm/other-programms__about-programm.css");
 
-
-/* @import url("../blocks/subscribe/subscribe.css");
-@import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
-@import url("../blocks/subscribe/__title/subscribe__title.css");
-@import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
-@import url("../blocks/subscribe/__email/subscribe__email.css");
-@import url("../blocks/subscribe/__btn/subscribe__btn.css"); */
-
 @import url("../blocks/subscribe/subscribe.css");
 @import url("../blocks/subscribe/__head/subscribe__head.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");

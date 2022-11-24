@@ -64,11 +64,12 @@
 @import url("../blocks/content/content.css");
 
 @import url("../blocks/subscribe/subscribe.css");
-@import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
+@import url("../blocks/subscribe/__head/subscribe__head.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
-@import url("../blocks/subscribe/__email/subscribe__email.css");
-@import url("../blocks/subscribe/__btn/subscribe__btn.css");
+@import url("../blocks/subscribe/__form/subscribe__form.css");
+@import url("../blocks/subscribe/__field/subscribe__field.css");
+@import url("../blocks/subscribe/__button/subscribe__button.css");
 
 /* секция другие программы */
 @import url("../blocks/other-programms/other-programms.css");

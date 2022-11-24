@@ -30,7 +30,8 @@
       </nav>
       <div class="social">
         <a class="social__link" href="#"><img class="social__icon" src="./images/vk.svg" alt="логотип ВКонтакте" /></a>
-        <a class="social__link" href="#"><img class="social__icon" src="./images/telegram.svg" alt="Логотип Телеграмм" /></a>
+        <a class="social__link" href="#"><img class="social__icon" src="./images/telegram.svg"
+            alt="Логотип Телеграмм" /></a>
       </div>
       <ul class="lang-box">
         <li class="lang-box__link">
@@ -164,7 +165,8 @@
     <nav class="menue-program">
       <article class="menue-program__item">
         <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/menue_logo_procharity.svg" alt="Логотип платформы для волонтёров procharity" />
+          <img class="menue-program__logo" src="./images/menue_logo_procharity.svg"
+            alt="Логотип платформы для волонтёров procharity" />
           <div class="menue-program__text-container">
             <a class="menue-program__link" href="#">
               <h3 class="menue-program__item-title menue-program__item-title_margin">
@@ -177,7 +179,8 @@
           </div>
         </div>
         <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/moscowlogo.svg" alt="Логотип Московской школы профессиональной филантропии" />
+          <img class="menue-program__logo" src="./images/moscowlogo.svg"
+            alt="Логотип Московской школы профессиональной филантропии" />
           <div class="menue-program__text-container">
             <a class="menue-program__link" href="#">
               <h3 class="menue-program__item-title">
@@ -190,7 +193,8 @@
           </div>
         </div>
         <div class="menue-program__item-box">
-          <img class="menue-program__logo" src="./images/professionallogo.svg" alt="Логотип программы команда профессионалов" />
+          <img class="menue-program__logo" src="./images/professionallogo.svg"
+            alt="Логотип программы команда профессионалов" />
           <div class="menue-program__text-container">
             <a class="menue-program__link" href="#">
               <h3 class="menue-program__item-title menue-program__positioning">
@@ -210,7 +214,7 @@
   <!--Основное содержание страницы-->
   <main class="content">
 
-     <!--Секция Вакансии-->
+    <!--Секция Вакансии-->
     <h2 class="page-title">Вакансии<span class="page-title_type_number">2</span></h2>
 
     <section class="vacancies">
@@ -226,21 +230,16 @@
     </section>
 
 
-      <!--Секция Подписка-->
-    <section class="subscribe" aria-label="subscription">
-      <div class="subscribe__wrapper">
-        <p class="subscribe__title">
-          Подпишитесь на&nbsp;новостную рассылку программы
-        </p>
-        <p class="subscribe__subtitle">
-          и получайте первыми наши новости и приглашения на семинары/вебинары
-        </p>
+    <!--Секция Подписка-->
+    <section class="subscribe">
+      <div class="subscribe__head">
+        <h3 class="subscribe__title">Подпишитесь на новостную рассылку программы</h3>
+        <p class="subscribe__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
       </div>
-      <label>
-        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="subscribe__email"
-          placeholder="Введите ваш e-mail">
-      </label>
-      <button type="submit" class="subscribe__btn">Подписаться</button>
+      <form class="subscribe__form" action="" method="post">
+        <input type="email" class="subscribe__field" placeholder="Введите ваш e-mail">
+        <button type="submit" class="subscribe__button">Подписаться</button>
+      </form>
     </section>
 
   </main>
@@ -296,7 +295,8 @@
     </div>
     <div class="footer__variety">
       <div class="footer__wrapper">
-        <img class="footer__adultsonly" src="./images/footer_adult.svg" alt="логотип возрастного ограничения, для лиц старше 18 лет" />
+        <img class="footer__adultsonly" src="./images/footer_adult.svg"
+          alt="логотип возрастного ограничения, для лиц старше 18 лет" />
         <p class="footer__copyright">
           © 2021 Фонд «Друзья» Все права защищены.
         </p>
