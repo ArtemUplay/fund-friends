@@ -60,7 +60,6 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
-
 /* основной контент страницы */
 @import url("../blocks/content/content.css");
 
@@ -89,20 +88,20 @@
 
 /* модификаторы слайдера для блока НКО */
 @import url("../blocks/nko-study/__item/nko-study__item.css");
-@import url("../blocks/nko-study/__first-item/nko-study__first-item.css");
-@import url("../blocks/nko-study/__second-item/nko-study__second-item.css");
-@import url("../blocks/nko-study/__third-item/nko-study__third-item.css");
-@import url("../blocks/nko-study/__fourth-item/nko-study__fourth-item.css");
-@import url("../blocks/nko-study/__fifth-item/nko-study__fifth-item.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_first.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_second.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_third.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fourth.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fifth.css");
 @import url("../blocks/nko-study/__slide-number/nko-study__slide-number.css");
 @import url("../blocks/nko-study/__slide-title/nko-study__slide-title.css");
-
 
 /* текстовая часть блока курсы НКО */
 @import url("../blocks/nko-study/nko-study.css");
 @import url("../blocks/nko-study/__container/nko-study__container.css");
 @import url("../blocks/nko-study/__title/nko-study__title.css");
 @import url("../blocks/nko-study/__button/nko-study__button.css");
+@import url("../blocks/nko-study/__button-arrow/nko-study__button-arrow.css");
 @import url("../blocks/nko-study/__discription/nko-study__discription.css");
 
 /* блок с подпиской */
@@ -129,7 +128,6 @@
 @import url(../blocks/other-programms/other-programms.css);
 @import url(../blocks/other-programms/__item/other-programms__item.css);
 @import url(../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css);
-@import url(../blocks/other-programms/__background-image/other-programms__background-image.css);
 @import url(../blocks/other-programms/__head/other-programms__head.css);
 @import url(../blocks/other-programms/__logo/other-programms__logo.css);
 @import url(../blocks/other-programms/__programm/other-programms__programm.css);
