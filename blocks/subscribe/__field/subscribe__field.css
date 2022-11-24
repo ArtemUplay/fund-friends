@@ -1,0 +1,25 @@
+.subscribe__field {
+  border-radius: 56px;
+  border: 0;
+  background-color: #fff;
+  padding: 18px 0px 18px 60px;
+  display: block;
+  width: 328px;
+  box-sizing: border-box;
+}
+
+.subscribe__field:not(:focus) {
+  background-image: url(../../../images/letter.svg);
+  background-repeat: no-repeat;
+  background-position: 32px 21px;
+}
+
+.subscribe__field:focus {
+  padding-left: 32px;
+}
+
+@media screen and (max-width: 360px) {
+  .subscribe__field {
+    width: 260px;
+  }
+}
