@@ -1,0 +1,4 @@
+.other-programms__item_desktop {
+  display: flex;
+  flex-direction: column-reverse;
+}

@@ -1,0 +1,6 @@
+.other-programms__plane {
+  z-index: 3;
+  position: absolute;
+  top: -375px;
+  left: 105px;
+}
