@@ -1,4 +1,6 @@
 .alumni-stories-card__img {
+  border-radius: 281px;
+  max-width: 214px;
   height: 216px;
   display: flex;
   justify-content: center;

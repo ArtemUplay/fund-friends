@@ -66,25 +66,8 @@
 /* секция курсов лидеров НКО */
 
 /* Слайдер*/
-@import url("../blocks/slides-foundation/slides-foundation.css");
-@import url("../blocks/foundation/foundation.css");
-@import url("../blocks/foundation/__link/foundation__link.css");
-@import url("../blocks/foundation/__program-button/foundation__program-button.css");
-@import url("../blocks/foundation/__subtitle/foundation__subtitle.css");
-@import url("../blocks/foundation/__subtitle/__subtitle_span/foundation__subtitle_span.css");
-@import url("../blocks/foundation/__title/foundation__title.css");
-@import url("../blocks/foundation/__title/__title_span/foundation__title_span.css");
 @import url("../vendor/slider/slider.css");
 @import url("../vendor/slider/styles.css");
-/* Модификаторы для слайдера и заголовка секции*/
-@import url("../blocks/slides-foundation_section-padding/slides-foundation_section-padding.css");
-@import url("../blocks/slider__indicator_position/slider__indicator_position.css");
-@import url("../blocks/foundation/__subtitle/_text-overflow/foundation__subtitle_text-overflow.css");
-@import url("../blocks/foundation/_background-image/foundation_background-image.css");
-@import url("../blocks/foundation/__subtitle/_font/foundation__subtitle_font.css");
-@import url("../blocks/foundation/__title/_font/foundation__title_font.css");
-@import url("../blocks/section-title/_font/section-title_font.css");
-@import url("../blocks/section-title/_padding/section-title_padding.css");
 
 /* модификаторы слайдера для блока НКО */
 @import url("../blocks/nko-study/__item/nko-study__item.css");
@@ -101,7 +84,6 @@
 @import url("../blocks/nko-study/__container/nko-study__container.css");
 @import url("../blocks/nko-study/__title/nko-study__title.css");
 @import url("../blocks/nko-study/__button/nko-study__button.css");
-@import url("../blocks/nko-study/__button-arrow/nko-study__button-arrow.css");
 @import url("../blocks/nko-study/__discription/nko-study__discription.css");
 
 /* блок с подпиской */
@@ -123,7 +105,6 @@
 @import url(../blocks/alumni-stories-card/__name/alumni-stories-card__name.css);
 @import url(../blocks/alumni-stories-card/__quote/alumni-stories-card__quote.css);
 @import url(../blocks/alumni-stories-card/__text-box/alumni-stories-card__text-box.css);
-@import url(../blocks/slider/slider.css);
 @import url(../vendor/itc-slider/itc-slider.css);
 
 @import url(../blocks/other-programms/other-programms.css);
