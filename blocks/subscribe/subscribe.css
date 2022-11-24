@@ -1,25 +1,24 @@
 .subscribe {
-  display: flex;
-  max-width: 1280px;
   width: 100%;
-  background: #f8f8f8;
-  margin: 0;
-  padding: 0;
-  flex-direction: row;
-  justify-content: center;
+  max-width: 1280px;
+  padding: 43px 125px;
+  display: flex;
+  align-items: center;
   box-sizing: border-box;
+  gap: 28px;
+  background-color: #F8F8F8;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1110px) {
   .subscribe {
-    padding-left: 40px;
-    justify-content: space-evenly;
+    padding: 43px 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 950px) {
   .subscribe {
+    gap: 42px;
     flex-direction: column;
-    align-items: center;
+    padding-bottom: 52px;
   }
 }
