@@ -96,7 +96,6 @@
 .itc-slider__btn:focus {
   color: #fff;
   text-decoration: none;
-  background: rgb(0 0 0 / 30%);
   outline: 0;
 }
 

@@ -70,29 +70,27 @@
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
 @import url("../blocks/header/_programs-padding/header_programs-padding.css");
-/* Заголовок */
-@import url("../blocks/section-title/_for-business/section-title_for-business.css");
 @import url("../blocks/section-title/section-title.css");
-/* Слайдер*/
-@import url("../blocks/slides-foundation/slides-foundation.css");
-@import url("../blocks/foundation/foundation.css");
-@import url("../blocks/foundation/__link/foundation__link.css");
-@import url("../blocks/foundation/__program-button/foundation__program-button.css");
-@import url("../blocks/foundation/__subtitle/foundation__subtitle.css");
-@import url("../blocks/foundation/__subtitle/__subtitle_span/foundation__subtitle_span.css");
-@import url("../blocks/foundation/__title/foundation__title.css");
-@import url("../blocks/foundation/__title/__title_span/foundation__title_span.css");
-@import url("../vendor/slider/slider.css");
-@import url("../vendor/slider/styles.css");
+
 /* Модификаторы для слайдера и заголовка секции*/
-@import url("../blocks/slides-foundation_section-padding/slides-foundation_section-padding.css");
-@import url("../blocks/slider__indicator_position/slider__indicator_position.css");
-@import url("../blocks/foundation/__subtitle/_text-overflow/foundation__subtitle_text-overflow.css");
-@import url("../blocks/foundation/_background-image/foundation_background-image.css");
-@import url("../blocks/foundation/__subtitle/_font/foundation__subtitle_font.css");
-@import url("../blocks/foundation/__title/_font/foundation__title_font.css");
-@import url("../blocks/section-title/_font/section-title_font.css");
-@import url("../blocks/section-title/_padding/section-title_padding.css");
+@import url(../blocks/our-projects/our-projects.css);
+@import url(../blocks/section-title/_font/section-title_font_size.css);
+@import url(../vendor/itc-slider/itc-slider.css);
+@import url(../blocks/itc-slider/__items/_size/itc-slider__items_size_height.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_yandex.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_lamoda.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_bosco.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_mastercard.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_procharity.css);
+@import url(../blocks/itc-slider/__title/itc-slider__title.css);
+@import url(../blocks/itc-slider/__text/itc-slider__text.css);
+@import url(../blocks/itc-slider/__title/_font-style/itc-slider__title_font-style_italic.css);
+@import url(../blocks/itc-slider/_position/itc-slider_position_center.css);
+@import url(../blocks/itc-slider/__btn/_visible/itc-slider__btn_hidden.css);
+@import url(../blocks/itc-slider/__btn/_next/itc-slider__btn_next_space-right.css);
+@import url(../blocks/itc-slider/__btn/_prev/itc-slider__btn_prev_space-left.css);
+@import url(../blocks/itc-slider/__text/_overflow/itc-slider__text_overflow_none.css);
+@import url(../blocks/itc-slider/__indicators/_visible/itc-slider__indicators_visible.css);
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");
@@ -117,7 +115,6 @@
 @import url("../blocks/footer/__registered/footer__registered.css");
 
 /* Стили формы «Стать партнёром» */
-@import url("../blocks/section-title/section-title.css");
 @import url("../blocks/section-title/_form/section-title_form.css");
 @import url("../blocks/partner-up/partner-up.css");
 @import url("../blocks/partner-up/__subtitle/partner-up__subtitle.css");
