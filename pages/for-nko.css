@@ -115,6 +115,7 @@
 
 /* Подключаем стили для мобильной версии секции «Ключевые программы фонда для НКО» */
 @import url("../blocks/other-programms/_desktop/other-programms_desktop.css");
+@import url("../blocks/other-programms/_mobile/other-programms_mobile.css");
 @import url("../blocks/other-programms/__wrapper/other-programms__wrapper.css");
 @import url("../blocks/other-programms/__item/_desktop/other-programms__item_desktop.css");
 @import url("../blocks/other-programms/__about-programm/_desktop/other-programms__about-programm_desktop.css");

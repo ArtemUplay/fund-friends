@@ -1,0 +1,5 @@
+@media screen and (min-width: 1025px) {
+  .other-programms_mobile {
+    display: none;
+  }
+}
