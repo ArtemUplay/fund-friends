@@ -6,6 +6,7 @@
   display: inline-block;
   font-weight: 700;
 }
+
 .other-programms__about-programm_nko:hover {
   opacity: 0.6;
   transition: ease-in-out;

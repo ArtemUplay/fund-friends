@@ -111,3 +111,21 @@
 @import url("../blocks/other-programms/__logo/_pro/other-programms__logo_pro.css");
 @import url("../blocks/other-programms/__about-programm/_nko/other-programms__about-programm_nko.css");
 @import url("../blocks/other-programms/__title/_nko/other-programms__title_nko.css");
+@import url("../blocks/other-programms/_desktop/other-programms_desktop.css");
+@import url("../blocks/section-title/_location/_nko/section-title_location_nko.css");
+
+/* Подключаем стили для мобильной версии секции «Ключевые программы фонда для НКО» */
+@import url("../blocks/other-programms/_desktop/other-programms_desktop.css");
+@import url("../blocks/other-programms/_mobile/other-programms_mobile.css");
+@import url("../blocks/other-programms/__wrapper/other-programms__wrapper.css");
+@import url("../blocks/other-programms/__item/_desktop/other-programms__item_desktop.css");
+@import url("../blocks/other-programms/__about-programm/_desktop/other-programms__about-programm_desktop.css");
+@import url("../blocks/other-programms/__item/_column/other-programms__item_column_one.css");
+@import url("../blocks/other-programms/__item/_column/other-programms__item_column_two.css");
+@import url("../blocks/other-programms/__item/_column/other-programms__item_column_three.css");
+@import url("../blocks/other-programms/__info/_desktop/other-programms__info_deskop.css");
+@import url("../blocks/other-programms/__title/_desktop/other-programms__title_desktop.css");
+@import url("../blocks/other-programms/__hr/other-programms__hr.css");
+@import url("../blocks/other-programms/__number/other-programms__number.css");
+@import url("../blocks/other-programms/__plane/other-programms__plane.css");
+@import url("../blocks/other-programms/__growth/other-programms__growth.css");

@@ -1,0 +1,12 @@
+.other-programms_desktop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms_desktop {
+    display: none;
+  }
+}
