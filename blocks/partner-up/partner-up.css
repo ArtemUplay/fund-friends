@@ -4,9 +4,3 @@
   margin: 0 auto;
   padding: 96px 24px 96px;
 }
-
-@media screen and (max-width: 767px) {
-  .partner-up {
-    width: 90%;
-  }
-}
