@@ -1,0 +1,5 @@
+.itc-slider__text_overflow_none {
+  max-height: none;
+  text-overflow: clip;
+  overflow: visible;
+}

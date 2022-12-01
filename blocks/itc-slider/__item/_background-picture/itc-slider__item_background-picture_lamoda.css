@@ -1,0 +1,9 @@
+.itc-slider__item_background-picture_lamoda {
+  justify-content: start;
+  color: white;
+  flex-direction: column;
+  max-width: 100%;
+  flex: 0 0 100%;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url(../../../../images/lamoda-friends.jpg);
+  background-position-x: 50%;
+}

@@ -1,0 +1,17 @@
+.partner-up__form-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px 0px;
+  max-width: 648px;
+}
+
+@media screen and (max-width: 767px) {
+  .partner-up__form-wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

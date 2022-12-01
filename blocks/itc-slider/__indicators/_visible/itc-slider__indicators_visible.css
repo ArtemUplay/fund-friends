@@ -1,0 +1,6 @@
+@media (max-width: 858px) {
+  .itc-slider__indicators_visible {
+    display: flex;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,21 @@
+.alumni-stories {
+  max-width: 1280px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 96px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .alumni-stories {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .alumni-stories {
+    padding-bottom: 16px;
+  }
+}

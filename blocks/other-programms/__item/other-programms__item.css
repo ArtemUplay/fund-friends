@@ -1,0 +1,13 @@
+.other-programms__item {
+  box-sizing: border-box;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .other-programms__item {
+    flex-basis: 100%;
+    padding: 72px 0px 96px 52px;
+  }
+}

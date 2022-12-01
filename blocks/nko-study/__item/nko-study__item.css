@@ -1,0 +1,14 @@
+.nko-study__item {
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 600px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+    .nko-study__item {
+        min-height: 486px;
+    }
+}

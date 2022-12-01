@@ -1,0 +1,20 @@
+.fund-structure-card__name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+}
+
+@media (max-width: 906px) {
+  .fund-structure-card__name {
+    font-size: 4.857vw;
+    line-height: 5.519vw;
+  }
+}
+
+@media (max-width: 420px) {
+  .fund-structure-card__name {
+    font-size: 34px;
+    line-height: 50px;
+  }
+}

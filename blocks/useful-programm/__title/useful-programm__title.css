@@ -1,0 +1,16 @@
+.useful-programm__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0px 0px 56px 0px;
+}
+
+@media screen and (max-width: 565px) {
+  .useful-programm__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0px 0px 32px 0px;
+    padding: 0px 24px;
+  }
+}

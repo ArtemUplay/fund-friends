@@ -1,0 +1,15 @@
+.nko-study__title {
+    margin: 0;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 645px) {
+    .nko-study__title {
+      font-size: 32px;
+    }
+  }

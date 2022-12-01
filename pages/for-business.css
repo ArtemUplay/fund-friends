@@ -61,15 +61,37 @@
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
 @import url("../blocks/subscribe/subscribe.css");
-@import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
+@import url("../blocks/subscribe/__head/subscribe__head.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
-@import url("../blocks/subscribe/__email/subscribe__email.css");
-@import url("../blocks/subscribe/__btn/subscribe__btn.css");
+@import url("../blocks/subscribe/__form/subscribe__form.css");
+@import url("../blocks/subscribe/__field/subscribe__field.css");
+@import url("../blocks/subscribe/__button/subscribe__button.css");
 
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");
 @import url("../blocks/header/_programs-padding/header_programs-padding.css");
+@import url("../blocks/section-title/section-title.css");
+
+/* Модификаторы для слайдера и заголовка секции*/
+@import url(../blocks/our-projects/our-projects.css);
+@import url(../blocks/section-title/_font/section-title_font_size.css);
+@import url(../vendor/itc-slider/itc-slider.css);
+@import url(../blocks/itc-slider/__items/_size/itc-slider__items_size_height.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_yandex.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_lamoda.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_bosco.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_mastercard.css);
+@import url(../blocks/itc-slider/__item/_background-picture/itc-slider__item_background-picture_procharity.css);
+@import url(../blocks/itc-slider/__title/itc-slider__title.css);
+@import url(../blocks/itc-slider/__text/itc-slider__text.css);
+@import url(../blocks/itc-slider/__title/_font-style/itc-slider__title_font-style_italic.css);
+@import url(../blocks/itc-slider/_position/itc-slider_position_center.css);
+@import url(../blocks/itc-slider/__btn/_visible/itc-slider__btn_hidden.css);
+@import url(../blocks/itc-slider/__btn/_next/itc-slider__btn_next_space-right.css);
+@import url(../blocks/itc-slider/__btn/_prev/itc-slider__btn_prev_space-left.css);
+@import url(../blocks/itc-slider/__text/_overflow/itc-slider__text_overflow_none.css);
+@import url(../blocks/itc-slider/__indicators/_visible/itc-slider__indicators_visible.css);
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__container/footer__container.css");
@@ -92,3 +114,19 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 @import url("../blocks/footer/__otherrights/footer__otherrights.css");
 @import url("../blocks/footer/__registered/footer__registered.css");
+
+/* Стили формы «Стать партнёром» */
+
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_location/_form/section-title_location_form.css");
+@import url("../blocks/partner-up/partner-up.css");
+@import url("../blocks/partner-up/__subtitle/partner-up__subtitle.css");
+@import url("../blocks/partner-up/__form/partner-up__form.css");
+@import url("../blocks/partner-up/__form-wrapper/partner-up__form-wrapper.css");
+@import url("../blocks/partner-up/__input-text/partner-up__input-text.css");
+@import url("../blocks/partner-up/__input-message/partner-up__input-message.css");
+@import url("../blocks/partner-up/__input-link/partner-up__input-link.css");
+@import url("../blocks/partner-up/__input-checkbox/partner-up__input-checkbox.css");
+@import url("../blocks/partner-up/__input-checkbox-label/partner-up__input-checkbox-label.css");
+@import url("../blocks/partner-up/__input-button/partner-up__input-button.css");
+@import url("../blocks/partner-up/__input-text/_oneliner/partner-up__input-text_oneliner.css");

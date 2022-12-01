@@ -1,0 +1,39 @@
+.itc-slider__title {
+  max-width: 1000px;
+  margin: 123px 0 0 123px;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 66px;
+}
+
+@media (max-width: 1125px) {
+  .itc-slider__title {
+    margin: 88px 0 0 88px;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 917px) {
+  .itc-slider__title {
+    margin: 44px 0 0 70px;
+  }
+}
+
+@media (max-width: 858px) {
+  .itc-slider__title {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 685px) {
+  .itc-slider__title {
+    margin: 40px 0 0 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .itc-slider__title {
+    max-width: 326;
+  }
+}

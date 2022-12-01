@@ -60,12 +60,82 @@
 @import url("../blocks/programs/__item-text/programs__item-text.css");
 @import url("../blocks/programs/__about-link/programs__about-link.css");
 
+/* основной контент страницы */
+@import url("../blocks/content/content.css");
+
+/* секция курсов лидеров НКО */
+
+/* Слайдер*/
+@import url("../vendor/slider/slider.css");
+@import url("../vendor/slider/styles.css");
+
+/* модификаторы слайдера для блока НКО */
+@import url("../blocks/nko-study/__item/nko-study__item.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_first.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_second.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_third.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fourth.css");
+@import url("../blocks/nko-study/__item/_number/nko-study__item_number_fifth.css");
+@import url("../blocks/nko-study/__slide-number/nko-study__slide-number.css");
+@import url("../blocks/nko-study/__slide-title/nko-study__slide-title.css");
+
+/* текстовая часть блока курсы НКО */
+@import url("../blocks/nko-study/nko-study.css");
+@import url("../blocks/nko-study/__container/nko-study__container.css");
+@import url("../blocks/nko-study/__title/nko-study__title.css");
+@import url("../blocks/nko-study/__button/nko-study__button.css");
+@import url("../blocks/nko-study/__discription/nko-study__discription.css");
+
+/* блок с подпиской */
 @import url("../blocks/subscribe/subscribe.css");
-@import url("../blocks/subscribe/__wrapper/subscribe__wrapper.css");
+@import url("../blocks/subscribe/__head/subscribe__head.css");
 @import url("../blocks/subscribe/__title/subscribe__title.css");
 @import url("../blocks/subscribe/__subtitle/subscribe__subtitle.css");
-@import url("../blocks/subscribe/__email/subscribe__email.css");
-@import url("../blocks/subscribe/__btn/subscribe__btn.css");
+@import url("../blocks/subscribe/__form/subscribe__form.css");
+@import url("../blocks/subscribe/__field/subscribe__field.css");
+@import url("../blocks/subscribe/__button/subscribe__button.css");
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/alumni-stories/alumni-stories.css);
+@import url(../blocks/alumni-stories-card/alumni-stories-card.css);
+@import url(../blocks/alumni-stories-card/__description/alumni-stories-card__description.css);
+@import url(../blocks/alumni-stories-card/__img/alumni-stories-card__img.css);
+@import url(../blocks/alumni-stories-card/__link/alumni-stories-card__link.css);
+@import url(../blocks/alumni-stories-card/__quote/_mark-text/alumni-stories-card__quote_mark-text.css);
+@import url(../blocks/alumni-stories-card/__name/alumni-stories-card__name.css);
+@import url(../blocks/alumni-stories-card/__quote/alumni-stories-card__quote.css);
+@import url(../blocks/alumni-stories-card/__text-box/alumni-stories-card__text-box.css);
+@import url(../vendor/itc-slider/itc-slider.css);
+
+@import url(../blocks/other-programms/other-programms.css);
+@import url(../blocks/other-programms/__item/other-programms__item.css);
+@import url(../blocks/other-programms/__item/_professionals-team/other-programms__item_professionals-team.css);
+@import url(../blocks/other-programms/__head/other-programms__head.css);
+@import url(../blocks/other-programms/__logo/other-programms__logo.css);
+@import url(../blocks/other-programms/__programm/other-programms__programm.css);
+@import url(../blocks/other-programms/__title/other-programms__title.css);
+@import url(../blocks/other-programms/__info/other-programms__info.css);
+@import url(../blocks/other-programms/__about-programm/other-programms__about-programm.css);
+@import url(../blocks/other-programms/__item/_laptop-urgant/other-programms__item_laptop-urgant.css);
+@import url(../blocks/page-title/page-title.css);
+@import url(../blocks/page-title/_useful-aboutSchool/page-title_useful-aboutSchool.css);
+@import url(../blocks/faq/faq.css);
+@import url(../blocks/faq/_useful-aboutSchool/faq_useful-aboutSchool.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__button/accordion__button.css);
+@import url(../blocks/accordion/__button/_center/accordion__button_center.css);
+@import url(../blocks/accordion/__button/_open/accordion__button_open.css);
+@import url(../blocks/accordion/__content-info/accordion__content-info.css);
+@import url(../blocks/accordion/__content-text/accordion__content-text.css);
+@import url(../blocks/accordion/__content-wrapper/accordion__content-wrapper.css);
+@import url(../blocks/accordion/__content/accordion__content.css);
+@import url(../blocks/accordion/__email/accordion__email.css);
+@import url(../blocks/accordion/__head-wrapper/accordion__head-wrapper.css);
+@import url(../blocks/accordion/__item/accordion__item.css);
+@import url(../blocks/accordion/__number/accordion__number.css);
+@import url(../blocks/accordion/__text-reports/accordion__text-reports.css);
+@import url(../blocks/accordion/__title-content/accordion__title-content.css);
+@import url(../blocks/accordion/__title-info/accordion__title-info.css);
 
 /*--------Не переставлять эти импорты в другое место (верстка ломается)--------------------------*/
 @import url("../blocks/header/_programs-positioning/header_programs-positioning.css");

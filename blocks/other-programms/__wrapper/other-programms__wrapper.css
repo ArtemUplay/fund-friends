@@ -1,0 +1,10 @@
+.other-programms__wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1048px;
+  padding-left: 124px;
+  padding-right: 108px;
+  width: 100%;
+  padding-top: 95px;
+  box-sizing: border-box;
+}

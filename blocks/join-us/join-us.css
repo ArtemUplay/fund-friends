@@ -1,0 +1,19 @@
+.join-us {
+  width: 100%;
+  max-width: 1080px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  column-gap: 23px;
+  padding: 97px 24px 100px;
+}
+
+@media screen and (max-width: 750px) {
+  .join-us {
+    grid-template-columns: fit-content(600px);
+    grid-template-rows: repeat(3, auto-fill);
+    padding: 56px 24px 72px;
+  }
+}
